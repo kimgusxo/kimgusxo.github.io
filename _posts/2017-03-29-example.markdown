@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Example"
-date:   2017-03-29 00:00:00 +0200
-description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes.
+title:  "Picstagram"
+date:   2022-09-06 00:00:00 +0900 ~ 2017-12-13 00:00:00 +0900 
+description: 실시간 여행 공유 SNS 어플리케이션
 ---
 
 ## Headings

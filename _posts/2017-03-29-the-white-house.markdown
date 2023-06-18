@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Wooden house"
+title:  "PillGood"
 img: wooden_house.jpg
-date:   2017-03-29 00:00:00 +0200
-description: Phasellus tincidunt pulvinar ante, pretium pellentesque urna mollis id. Donec convallis ut elit at aliquet. Suspendisse potenti.
+date:   2023-03-06 00:00:00 +0900 ~ 2023-06-14 00:00:00 +0900
+description: OCR 기술을 활용한 처방전 기반 자동 복약관리 어플리케이션
 ---
 
 Mauris rutrum, felis vestibulum sodales posuere, erat odio volutpat ex, id interdum mi turpis ac eros. Etiam et mattis quam, non sagittis mauris. Pellentesque eleifend turpis et sem lobortis dignissim. Vivamus sagittis maximus ultricies. Ut sed nisi nisl. Sed sed purus sit amet mi accumsan dignissim ut quis augue. Nullam ut lacus nec odio aliquam tempor. Praesent nulla sapien, congue bibendum tristique luctus, mattis nec augue.
