@@ -6,51 +6,61 @@ date:   2022-09-06 00:00:00 +0900
 description: 실시간 여행 공유 SNS 어플리케이션
 ---
 
-## Headings
+# :pushpin: Picstagram
+> 실시간 여행 공유 SNS 어플리케이션
 
-Headings by default:
+<br>
 
-## Heading first level
-### Heading second level
-#### Heading third level
+## 1. 데모 링크
+- None
 
-{% highlight markdown %}
-## Heading first level
-### Heading second level
-#### Heading third level
-{% endhighlight %}
+<br>
 
-## Lists
+## 2. 제작 기간 & 참여 인원
+- 2022년 9월 6일 ~ 2022년 12월 13일
+- 팀 프로젝트
+- Front-End 2명, Back-End 1명
 
-Unordered list example:
-* Unordered list item 1
-* Unordered list item 2
-* Unordered list item 3
-* Unordered list item 4
+<br>
 
-Ordered list example:
-1. Ordered list item 1
-2. Ordered list item 1
-3. Ordered list item 1
-4. Ordered list item 1
+## 3. Back-End 사용 기술
+### Database Server
+    - Javascript
+    - React Native
+	- Node.js
+    - Firebase Authentication
+    - Firebase FireStore
 
-{% highlight markdown %}
-* Unordered list item 1
-* Unordered list item 2
+<br>
 
-1. Order list item 1
-2. Order list item 1
-{% endhighlight %}
+## 4. 데이터베이스 구조
+![ERD Diagram](../assets/img/PillGood-ERDDiagram.png)
 
+<br>
 
-## Quotes
+## 5. 핵심 기능
+이 서비스의 핵심 기능은 사진 일기입니다.
+사용자는 인앱 카메라로 사진을 찍거나 갤러리에 있는 사진을 통해
+위치 좌표를 기준으로 지도에 여행 경로를 표시합니다.
 
-A quote looks like this:
+<br>
+ 
+<details>
+<summary><b>핵심 기능 설명 펼치기</b></summary>
+<div markdown="1">
 
-> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna.
+<br>
 
-{% highlight markdown %}
-> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna.
-{% endhighlight %}
+## 5. 서비스 아키텍쳐
+
+<br>
+
+## 6. 코드 파트 및 구현 이유
+
+<br>
+
+## 7. 트러블 슈팅
+
+<br>
+
+## 8. 회고
