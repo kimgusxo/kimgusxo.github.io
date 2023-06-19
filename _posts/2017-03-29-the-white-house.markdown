@@ -44,7 +44,7 @@ description: OCR 기술을 활용한 처방전 기반 자동 복약관리 어플
 <br>
 
 ## 4. ERD 다이어그램
-![ERD Diagram](PillGood-ERDDiagram.png)
+![ERD Diagram](../assets/img/PillGood-ERDDiagram.png)
 
 <br>
 
