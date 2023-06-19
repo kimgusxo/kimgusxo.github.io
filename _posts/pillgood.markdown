@@ -9,19 +9,19 @@ description: OCR 기술을 활용한 처방전 기반 자동 복약관리 어플
 # :pushpin: PillGood
 > OCR 기술을 활용한 처방전 기반 자동 복약관리 어플리케이션
 
-</br>
+<br>
 
 ## 1. 데모 링크
 - None
 
-</br>
+<br>
 
 ## 2. 제작 기간 & 참여 인원
 - 2023년 3월 6일 ~ 2023년 6월 14일
 - 팀 프로젝트
 - Front-End 2명, Back-End 2명
 
-</br>
+<br>
 
 ## 3. Back-End 사용 기술
 ### Database Server
@@ -41,12 +41,12 @@ description: OCR 기술을 활용한 처방전 기반 자동 복약관리 어플
 	- Sklearn
 	- Pandas
 
-</br>
+<br>
 
 ## 4. ERD 다이어그램
 ![ERD Diagram](PillGood-ERDDiagram.jpg)
 
-</br>
+<br>
 
 ## 5. 핵심 기능
 이 서비스의 핵심 기능은 처방전 OCR입니다.
