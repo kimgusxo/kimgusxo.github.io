@@ -58,6 +58,9 @@ description: OCR 기술을 활용한 처방전 기반 자동 복약관리 어플
 <summary><b>핵심 기능 설명 펼치기</b></summary>
 <div markdown="1">
 
+</div>
+</details>
+
 <br>
 
 ## 5. 서비스 아키텍쳐

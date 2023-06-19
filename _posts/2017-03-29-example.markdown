@@ -34,7 +34,7 @@ description: 실시간 여행 공유 SNS 어플리케이션
 <br>
 
 ## 4. 데이터베이스 구조
-![ERD Diagram](../assets/img/PillGood-ERDDiagram.png)
+![ERD Diagram](../assets/img/Picstagram-DBConstruct.png)
 
 <br>
 
@@ -48,6 +48,9 @@ description: 실시간 여행 공유 SNS 어플리케이션
 <details>
 <summary><b>핵심 기능 설명 펼치기</b></summary>
 <div markdown="1">
+
+</div>
+</details>
 
 <br>
 
