@@ -12,7 +12,7 @@ description: OCR 기술을 활용한 처방전 기반 자동 복약관리 어플
 <br>
 
 ## 1. 데모 링크
-- None
+- [데모링크](https://github.com/kimgusxo/pillgood)
 
 <br>
 
@@ -59,19 +59,32 @@ description: OCR 기술을 활용한 처방전 기반 자동 복약관리 어플
 <div markdown="1">
 
 ## 5.1. Controller
-### OCR 모델서버로 이미지 전송
+### OCR 모델서버로 이미지 전송1
 - Controller에서는 MultiPartFile로 이미지를 전달받고 OCR 모델서버로 이미지를 전송합니다. 그 후 전송된 이미지의 OCR 결과를 받고 정보를 추가하여 사용자에게 응답합니다.
 
 ## 5.2. Service
 ### FCM 전송
+<video controls>
+	<source src = "" type = "video/wav">
+	동영상을 실행할 수 없습니다.
+</video>
 - 유저의 FCM 토큰을 통해 OCR이 완료됬다는 알림을 보냅니다.
 
 ## 5.3. Repository
 ### 약 검색 동적쿼리
+<video controls>
+	<source src = "" type = "video/wav">
+	동영상을 실행할 수 없습니다.
+</video>
 - DTO에 저장된 값이 빈값 또는 Null값인지 확인하여 Criteria Interface 구현체를 통해 동적쿼리를 생성하여 해당 특징의 약을 검색합니다.
 
 ## 5.4. OCR
 ### 이미지 전처리
+<div style = "display: flex;">
+	<img src="../assets/img/PillGood-ERDDiagram.png" style = "flex: 1;">
+	<img src="../assets/img/PillGood-ERDDiagram.png" style = "flex: 1;">
+</div>
+
 - 모델서버에서 이미지를 받게 되면 OpenCV를 사용하여 텍스트를 인식하기 쉽도록 이미지를 자르고 이진화와 블러처리를 통해 OCR의 최적화된 이미지를 생성합니다.
 
 </div>
@@ -80,7 +93,7 @@ description: OCR 기술을 활용한 처방전 기반 자동 복약관리 어플
 <br>
 
 ## 5. 서비스 아키텍쳐
-![ERD Diagram](../assets/img/PillGood-ERDDiagram.png)
+![ServiceArchitecture](../assets/img/PillGood-ERDDiagram.png)
 
 <br>
 
