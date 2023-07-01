@@ -72,6 +72,7 @@ description: OCR 기술을 활용한 처방전 기반 자동 복약관리 어플
 
 ## 5.3. Repository
 ### 약 검색 동적쿼리
+
 <video controls>
 	<source src = "" type = "video/wav">
 	동영상을 실행할 수 없습니다.
@@ -81,8 +82,8 @@ description: OCR 기술을 활용한 처방전 기반 자동 복약관리 어플
 ## 5.4. OCR
 ### 이미지 전처리
 <div style = "display: flex;">
-	<img src="../assets/img/PillGood-ERDDiagram.png" style = "flex: 1; width: 50%; height: auto;">
-	<img src="../assets/img/PillGood-ERDDiagram.png" style = "flex: 1; width: 50%; height: auto;">
+	<img src="../assets/img/PillGood-OriginalImage.png" style = "flex: 1; width: 50%; height: auto;">
+	<img src="../assets/img/PillGood-PreProcessImage.png" style = "flex: 1; width: 50%; height: auto;">
 </div>
 
 - 모델서버에서 이미지를 받게 되면 OpenCV를 사용하여 텍스트를 인식하기 쉽도록 이미지를 자르고 이진화와 블러처리를 통해 OCR의 최적화된 이미지를 생성합니다.
