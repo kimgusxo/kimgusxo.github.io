@@ -12,7 +12,7 @@ description: OCR 기술을 활용한 처방전 기반 자동 복약관리 어플
 <br>
 
 ## 1. 데모 링크
-- [데모링크](https://github.com/kimgusxo/pillgood)
+- [PillGood](https://github.com/kimgusxo/pillgood)
 
 <br>
 
@@ -60,6 +60,7 @@ description: OCR 기술을 활용한 처방전 기반 자동 복약관리 어플
 
 ## 5.1. Controller
 ### OCR 모델서버로 이미지 전송
+![sendImage](../assets/img/PillGood-ERDDiagram.png)
 - Controller에서는 MultiPartFile로 이미지를 전달받고 OCR 모델서버로 이미지를 전송합니다. 그 후 전송된 이미지의 OCR 결과를 받고 정보를 추가하여 사용자에게 응답합니다.
 
 ## 5.2. Service
@@ -72,7 +73,6 @@ description: OCR 기술을 활용한 처방전 기반 자동 복약관리 어플
 
 ## 5.3. Repository
 ### 약 검색 동적쿼리
-
 <video controls>
 	<source src = "" type = "video/wav">
 	동영상을 실행할 수 없습니다.
@@ -85,8 +85,7 @@ description: OCR 기술을 활용한 처방전 기반 자동 복약관리 어플
 	<img src="../assets/img/PillGood-OriginalImage.png" style = "flex: 1; width: 50%; height: auto;">
 	<img src="../assets/img/PillGood-PreProcessImage.png" style = "flex: 1; width: 50%; height: auto;">
 </div>
-
-- 모델서버에서 이미지를 받게 되면 OpenCV를 사용하여 텍스트를 인식하기 쉽도록 이미지를 자르고 이진화와 블러처리를 통해 OCR의 최적화된 이미지를 생성합니다.
+- 모델서버에서 이미지를 받게 되면 OpenCV를 사용하여 텍스트를 인식하기 쉽도록 텍스트 군집화를 통해 이미지를 자르고 이진화와 블러처리를 통해 OCR의 최적화된 이미지를 생성합니다.
 
 </div>
 </details>
