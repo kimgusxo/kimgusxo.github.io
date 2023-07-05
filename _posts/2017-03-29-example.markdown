@@ -12,7 +12,7 @@ description: 실시간 여행 공유 SNS 어플리케이션
 <br>
 
 ## 1. 데모 링크
-- None
+- [Picstagram](https://github.com/kimgusxo/Picstagram)
 
 <br>
 
@@ -49,21 +49,37 @@ description: 실시간 여행 공유 SNS 어플리케이션
 <summary><b>핵심 기능 설명 펼치기</b></summary>
 <div markdown="1">
 
+## 5.1. Controller
+### 
+
+## 5.2. Service
+### FCM 전송
+
+## 5.3. Repository
+### 약 검색 동적쿼리
+
+## 5.4. OCR
+### 이미지 전처리
+
 </div>
 </details>
 
 <br>
 
 ## 5. 서비스 아키텍쳐
+![ServiceArchitecture](../assets/img/PillGood-ERDDiagram.png)
 
 <br>
 
 ## 6. 코드 파트 및 구현 이유
+- 백엔드 파트
 
 <br>
 
 ## 7. 트러블 슈팅
+- None
 
 <br>
 
 ## 8. 회고
+- None
