@@ -66,7 +66,7 @@ description: OCR 기술을 활용한 처방전 기반 자동 복약관리 어플
 ## 5.2. Service
 ### FCM 전송
 <video controls>
-	<source src = "../assets/wav/PillGood-Notification.mp4" type = "video/wav">
+	<source src = "../assets/wav/PillGood-Notification.mp4" type = "video/mp4">
 	동영상을 실행할 수 없습니다.
 </video>
 - 유저의 FCM 토큰을 통해 OCR이 완료됬다는 알림을 보냅니다.
@@ -74,7 +74,7 @@ description: OCR 기술을 활용한 처방전 기반 자동 복약관리 어플
 ## 5.3. Repository
 ### 약 검색 동적쿼리
 <video controls>
-	<source src = "../assets/wav/PillGood-SearchingPill.mp4" type = "video/wav">
+	<source src = "../assets/wav/PillGood-SearchingPill.mp4" type = "video/mp4">
 	동영상을 실행할 수 없습니다.
 </video>
 - DTO에 저장된 값이 빈값 또는 Null값인지 확인하여 Criteria Interface 구현체를 통해 동적쿼리를 생성하여 해당 특징의 약을 검색합니다.
