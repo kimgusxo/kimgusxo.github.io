@@ -93,7 +93,7 @@ description: OCR 기술을 활용한 처방전 기반 자동 복약관리 어플
 <br>
 
 ## 5. 서비스 아키텍쳐
-![ServiceArchitecture](../assets/img/PillGood-ERDDiagram.png)
+![ServiceArchitecture](../assets/img/PillGood-ServiceArchitecture.png)
 
 <br>
 
