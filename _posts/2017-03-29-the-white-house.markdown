@@ -6,6 +6,9 @@ date:   2023-03-06 00:00:00 +0900
 description: OCR 기술을 활용한 처방전 기반 자동 복약관리 어플리케이션
 ---
 
+<!-- 이미지 태그를 사용하여 크기를 조정 -->
+<img src="PillGood-thumbNail.jpg" alt="PillGood" style="width: 50%; height: auto;">
+
 # :pushpin: PillGood
 > OCR 기술을 활용한 처방전 기반 자동 복약관리 어플리케이션
 
