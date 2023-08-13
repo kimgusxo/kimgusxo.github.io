@@ -110,24 +110,28 @@ description: OCR 기술을 활용한 처방전 기반 자동 복약관리 어플
 		<b>코드 펼치기</b>
 		</summary>
 		</details>
-	- 약: 약이름을 통한 검색, 약특징을 통한 검색 구현
+
+	- 약: 약이름을 통한 검색, 약특징을 통한 검색 구현	
 		<details>
 		<summary>
 		<b>코드 펼치기</b>
 		</summary>
 		</details>
+	
 	- 처방전: 처방전 등록, 수정, 삭제 구현
 		<details>
 		<summary>
 		<b>코드 펼치기</b>
 		</summary>
 		</details>
+	
 	- 복약: OCR 결과를 바탕으로 복약해야 할 약 검색 구현
 		<details>
 		<summary>
 		<b>코드 펼치기</b>
 		</summary>
 		</details>
+
 	- 복약 현황: OCR 결과를 바탕으로 복약일정을 캘린더에 표시 및 설정한 시간이 되었을 때 알림 구현 
 		<details>
 		<summary>
@@ -142,6 +146,7 @@ description: OCR 기술을 활용한 처방전 기반 자동 복약관리 어플
 		<b>코드 펼치기</b>
 		</summary>
 		</details>
+
 	- OCR: EasyOCR을 사용하여 OCR기능 구현 및 Regular Expression으로 필요한 기본데이터 처리 구현
 		<details>
 		<summary>
@@ -153,13 +158,17 @@ description: OCR 기술을 활용한 처방전 기반 자동 복약관리 어플
 
 ## 7. 문제점 회고
 ### 1. 데이터 직렬화의 순환참조 문제
-	- 
+	- 원인: JPA에서 양방향으로 연결된 Entity를 JSON으로 직렬화하는 과정에서 계속해서 참조하여 StackOverFlowError를 발생시키는 현상이다.
+
+	- 원인분석: DTO를 사용하여 통신하는데 DTO 내부에 필드인 객체가 Entity형태여서 문제가 발생한다는 것을 확인
+
+	- 해결방안: DTO에서 객체를 필드로 가지는 부분을 Long 타입의 외래키로 대체하였고 객체의 정보나 리스트의 타입이 Entity가 필요한 상황은 EntityConverter라는 Class를 만들고 전부 DTO로 변환하였다.
 
 ### 2. API 명세 도구인 Swagger를 사용하기 위한 리턴 값 문제
 	- 
 
 ### 3. 모델서버를 두어야 하는가? 및 TessaractOCR의 한글인식률
-	- 
+	- 원인:  
 
 ### 4. 카메라 밝기에 대한 OCR 결과와 이미지의 잡음 제거 문제점
-	- 
+	- 원인: 
