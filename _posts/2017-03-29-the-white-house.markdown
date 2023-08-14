@@ -107,35 +107,35 @@ description: OCR 기술을 활용한 처방전 기반 자동 복약관리 어플
 	- 그룹원: 그룹원 생성, 수정, 삭제 구현
 		<details>
 		<summary>
-		<b>코드 펼치기</b>
+		<b>SQL 펼치기</b>
 		</summary>
 		</details>
 
 	- 약: 약이름을 통한 검색, 약특징을 통한 검색 구현	
 		<details>
 		<summary>
-		<b>코드 펼치기</b>
+		<b>SQL 펼치기</b>
 		</summary>
 		</details>
 	
 	- 처방전: 처방전 등록, 수정, 삭제 구현
 		<details>
 		<summary>
-		<b>코드 펼치기</b>
+		<b>SQL 펼치기</b>
 		</summary>
 		</details>
 	
 	- 복약: OCR 결과를 바탕으로 복약해야 할 약 검색 구현
 		<details>
 		<summary>
-		<b>코드 펼치기</b>
+		<b>SQL 펼치기</b>
 		</summary>
 		</details>
 
 	- 복약 현황: OCR 결과를 바탕으로 복약일정을 캘린더에 표시 및 설정한 시간이 되었을 때 알림 구현 
 		<details>
 		<summary>
-		<b>코드 펼치기</b>
+		<b>SQL 펼치기</b>
 		</summary>
 		</details>
 
