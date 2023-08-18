@@ -105,59 +105,59 @@ description: OCR 기술을 활용한 처방전 기반 자동 복약관리 어플
 ## 6. 코드 파트 및 구현 이유
 - 데이터 서버: 그룹원, 약, 처방전, 복약, 복약 현황 기능 구현
 	- 그룹원: 그룹원 생성, 수정, 삭제 구현
-	<details>
-	<summary>
-	<b>코드 펼치기</b>
-	</summary>
-	<img src = ../assets/img/PillGood-GroupMemberFunctionCode.png>
-	</details>
+		<details>
+		<summary>
+		<b>코드 펼치기</b>
+		</summary>
+		![GroupMemberFunction](../assets/img/PillGood-GroupMemberFunctionCode.png)
+		</details>
 
 	- 약: 약이름을 통한 검색, 약특징을 통한 검색 구현	
-	<details>
-	<summary>
-	<b>코드 펼치기</b>
-	</summary>
-	<img src = ../assets/img/PillGood-PillFunctionCode.png>
-	</details>
+		<details>
+		<summary>
+		<b>코드 펼치기</b>
+		</summary>
+		![PillFunction](../assets/img/PillGood-PillFunctionCode.png)
+		</details>
 	
 	- 처방전: 처방전 등록, 수정, 삭제 구현
-	<details>
-	<summary>
-	<b>코드 펼치기</b>
-	</summary>
-	<img src = ../assets/img/PillGood-PrescriptionFunctionCode.png>
-	</details>
+		<details>
+		<summary>
+		<b>코드 펼치기</b>
+		</summary>
+		![PrescriptionFunction](../assets/img/PillGood-PrescriptionFunctionCode.png)
+		</details>
 	
 	- 복약: OCR 결과를 바탕으로 복약해야 할 약 검색 구현
-	<details>
-	<summary>
-	<b>코드 펼치기</b>
-	</summary>
-	<img src = ../assets/img/PillGood-TakePillFunctionCode.png>
-	</details>
+		<details>
+		<summary>
+		<b>코드 펼치기</b>
+		</summary>
+		![TakePillFunction](../assets/img/PillGood-TakePillFunctionCode.png)
+		</details>
 
 	- 복약 현황: OCR 결과를 바탕으로 복약일정을 캘린더에 표시 및 설정한 시간이 되었을 때 알림 구현 
-	<details>
-	<summary>
-	<b>코드 펼치기</b>
-	</summary>
-	<img src = ../assets/img/PillGood-TakePillCheckFunctionCode.png>
-	</details>
+		<details>
+		<summary>
+		<b>코드 펼치기</b>
+		</summary>
+		![TakePillCheckFunction](../assets/img/PillGood-TakePillCheckFunctionCode.png)
+		</details>
 
 - 모델 서버: 이미지 전처리, OCR 기능 구현
 	- 이미지 전처리: GrayScale로 변환 후 밝기 조정, Image에 대한 Mopology 연산 및 텍스트 군집화로 이미지 resize 구현
-	<details>
-	<summary>
-	<b>코드 펼치기</b>
-	</summary>
-	</details>
+		<details>
+		<summary>
+		<b>코드 펼치기</b>
+		</summary>
+		</details>
 
 	- OCR: EasyOCR을 사용하여 OCR기능 구현 및 Regular Expression으로 필요한 기본데이터 처리 구현
-	<details>
-	<summary>
-	<b>코드 펼치기</b>
-	</summary>
-	</details>
+		<details>
+		<summary>
+		<b>코드 펼치기</b>
+		</summary>
+		</details>
 
 <br>
 
