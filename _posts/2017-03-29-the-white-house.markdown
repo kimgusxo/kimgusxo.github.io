@@ -106,10 +106,14 @@ description: OCR 기술을 활용한 처방전 기반 자동 복약관리 어플
 - 데이터 서버: 그룹원, 약, 처방전, 복약, 복약 현황 기능 구현
 	- 그룹원: 그룹원 생성, 수정, 삭제 구현
 		<details>
+		<div markdown="1">
+
 		<summary>
 		<b>코드 펼치기</b>
 		</summary>
+
 		![GroupMemberFunction](../assets/img/PillGood-GroupMemberFunctionCode.png)
+
 		</details>
 
 	- 약: 약이름을 통한 검색, 약특징을 통한 검색 구현	
