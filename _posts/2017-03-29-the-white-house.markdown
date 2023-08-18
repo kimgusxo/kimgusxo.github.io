@@ -106,11 +106,12 @@ description: OCR 기술을 활용한 처방전 기반 자동 복약관리 어플
 - 데이터 서버: 그룹원, 약, 처방전, 복약, 복약 현황 기능 구현
 	- 그룹원: 그룹원 생성, 수정, 삭제 구현
 		<details>
-		<div markdown="1">
 
 		<summary>
 		<b>코드 펼치기</b>
 		</summary>
+
+		<div markdown="1">
 
 		![GroupMemberFunction](../assets/img/PillGood-GroupMemberFunctionCode.png)
 
@@ -121,40 +122,64 @@ description: OCR 기술을 활용한 처방전 기반 자동 복약관리 어플
 
 	- 약: 약이름을 통한 검색, 약특징을 통한 검색 구현	
 		<details>
+		
 		<summary>
 		<b>코드 펼치기</b>
 		</summary>
+		
+		<div markdown="1">
+		
 		![PillFunction](../assets/img/PillGood-PillFunctionCode.png)
+		
+		</div>
 		</details>
 
 	<br>
 	
 	- 처방전: 처방전 등록, 수정, 삭제 구현
 		<details>
+		
 		<summary>
 		<b>코드 펼치기</b>
 		</summary>
+		
+		<div markdown="1">
+		
 		![PrescriptionFunction](../assets/img/PillGood-PrescriptionFunctionCode.png)
+		
+		</div>
 		</details>
 	
 	<br>
 
 	- 복약: OCR 결과를 바탕으로 복약해야 할 약 검색 구현
 		<details>
+		
 		<summary>
 		<b>코드 펼치기</b>
 		</summary>
+		
+		<div markdown="1">
+		
 		![TakePillFunction](../assets/img/PillGood-TakePillFunctionCode.png)
+		
+		</div>
 		</details>
 
 	<br>
 	
 	- 복약 현황: OCR 결과를 바탕으로 복약일정을 캘린더에 표시 및 설정한 시간이 되었을 때 알림 구현 
 		<details>
+		
 		<summary>
 		<b>코드 펼치기</b>
 		</summary>
+		
+		<div markdown="1">
+		
 		![TakePillCheckFunction](../assets/img/PillGood-TakePillCheckFunctionCode.png)
+		
+		</div>
 		</details>
 
 <br>
@@ -162,18 +187,31 @@ description: OCR 기술을 활용한 처방전 기반 자동 복약관리 어플
 - 모델 서버: 이미지 전처리, OCR 기능 구현
 	- 이미지 전처리: GrayScale로 변환 후 밝기 조정, Image에 대한 Mopology 연산 및 텍스트 군집화로 이미지 resize 구현
 		<details>
+		
 		<summary>
 		<b>코드 펼치기</b>
 		</summary>
+		
+		<div markdown="1">
+		
+		![PillFunction](../assets/img/PillGood-PillFunctionCode.png)
+		
+		</div>
 		</details>
-
 	<br>
 
 	- OCR: EasyOCR을 사용하여 OCR기능 구현 및 Regular Expression으로 필요한 기본데이터 처리 구현
 		<details>
+		
 		<summary>
 		<b>코드 펼치기</b>
 		</summary>
+		
+		<div markdown="1">
+		
+		![PillFunction](../assets/img/PillGood-PillFunctionCode.png)
+		
+		</div>
 		</details>
 
 <br>
