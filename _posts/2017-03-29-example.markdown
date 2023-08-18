@@ -72,13 +72,54 @@ description: 실시간 여행 공유 SNS 어플리케이션
 
 ## 6. 코드 파트 및 구현 이유
 - 백엔드 파트
+    - 그룹원: 그룹원 생성, 수정, 삭제 구현
+		<details>
+
+		<summary>
+		<b>코드 펼치기</b>
+		</summary>
+
+		<div markdown="1">
+
+		![GroupMemberFunction](../assets/img/PillGood-GroupMemberFunctionCode.png)
+
+		</div>
+		</details>
+
+    <br>
+
+    - 그룹원: 그룹원 생성, 수정, 삭제 구현
+		<details>
+
+		<summary>
+		<b>코드 펼치기</b>
+		</summary>
+
+		<div markdown="1">
+
+		![GroupMemberFunction](../assets/img/PillGood-GroupMemberFunctionCode.png)
+
+		</div>
+		</details>
+
+
+    <br>
+
+    - 그룹원: 그룹원 생성, 수정, 삭제 구현
+		<details>
+
+		<summary>
+		<b>코드 펼치기</b>
+		</summary>
+
+		<div markdown="1">
+
+		![GroupMemberFunction](../assets/img/PillGood-GroupMemberFunctionCode.png)
+
+		</div>
+		</details>
 
 <br>
 
-## 7. 트러블 슈팅
-- None
-
-<br>
-
-## 8. 회고
+## 7. 문제점 회고
 - None
