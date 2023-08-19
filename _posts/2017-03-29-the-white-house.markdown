@@ -13,6 +13,7 @@ description: OCR 기술을 활용한 처방전 기반 자동 복약관리 어플
 
 ## 1. 데모 링크
 - [PillGood](https://github.com/kimgusxo/pillgood)
+- [PillGood-OCR](https://github.com/kimgusxo/pillgood-ocr)
 
 <br>
 
