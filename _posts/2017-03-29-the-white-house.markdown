@@ -199,6 +199,8 @@ description: OCR 기술을 활용한 처방전 기반 자동 복약관리 어플
 		<img src="../assets/img/PillGood-WhiteBinary.png" style = "flex: 1; width: 50%; height: auto;">
 		</div>
 
+		<br>
+
 		<div style = "display: flex;">
 		<img src="../assets/img/PillGood-BrightnessCode.png" style = "flex: 1; width: 50%; height: auto;">
 		<img src="../assets/img/PillGood-CroppedImage.png" style = "flex: 1; width: 50%; height: auto;">
@@ -206,6 +208,7 @@ description: OCR 기술을 활용한 처방전 기반 자동 복약관리 어플
 
 		</div>
 		</details>
+
 	<br>
 
 	- OCR: EasyOCR을 사용하여 OCR기능 구현 및 Regular Expression으로 필요한 기본데이터 처리 구현
@@ -217,7 +220,7 @@ description: OCR 기술을 활용한 처방전 기반 자동 복약관리 어플
 		
 		<div markdown="1">
 		
-		![PillFunction](../assets/img/PillGood-PillGood-OCR.png)
+		![PillFunction](../assets/img/PillGood-OCR.png)
 		
 		</div>
 		</details>
