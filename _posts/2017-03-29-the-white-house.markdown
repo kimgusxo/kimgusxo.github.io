@@ -29,22 +29,22 @@ description: OCR 기술을 활용한 처방전 기반 자동 복약관리 어플
 <br>
 
 ## 3. Back-End 사용 기술
-#### Database Server
-	- Java 11
-	- Spring Boot 2.7.8
-	- Gradle
-	- Spring Data JPA
-	- MySQL
-	- Firebase Authentication
-	- Firebase Cloud Message
+### Database Server
+- Java 11
+- Spring Boot 2.7.8
+- Gradle
+- Spring Data JPA
+- MySQL
+- Firebase Authentication
+- Firebase Cloud Message
 
-#### Model Server
-	- Python 3.8
-	- Flask
-	- OpenCV
-	- EasyOCR
-	- Sklearn
-	- Pandas
+### Model Server
+- Python 3.8
+- Flask
+- OpenCV
+- EasyOCR
+- Sklearn
+- Pandas
 
 <br>
 
@@ -228,21 +228,21 @@ description: OCR 기술을 활용한 처방전 기반 자동 복약관리 어플
 <br>
 
 ## 7. 문제점 회고
-#### 1. 데이터 직렬화의 순환참조 문제
+### 1. 데이터 직렬화의 순환참조 문제
 - 원인: JPA에서 양방향으로 연결된 Entity를 JSON으로 직렬화하는 과정에서 계속해서 참조하여 StackOverFlowError를 발생시키는 현상이다.
 
 - 원인분석: DTO를 사용하여 통신하는데 DTO 내부에 필드인 객체가 Entity형태여서 문제가 발생한다는 것을 확인하였다.
 
 - 해결방안: DTO에서 객체를 필드로 가지는 부분을 Long 타입의 외래키로 대체하였고 객체의 정보나 리스트의 타입이 Entity가 필요한 상황은 EntityConverter라는 Class를 만들고 전부 DTO로 변환하였다.
 
-#### 2. 모델서버를 두어야 하는가? 및 TessaractOCR의 한글인식률
+### 2. 모델서버를 두어야 하는가? 및 TessaractOCR의 한글인식률
 - 원인: Java에서 지원하는 TessarectOCR과 OpenCV의 속도 및 정확도 측면에서 안좋은 성능을 보여주고 또한 알수없는 오류들이 발생하였다.
 
 - 원인분석: Java의 Native method를 통해 라이브러리들이 구동되게 되는데 Native method를 사용하면 디버깅이 어렵고 성능도 낮게 나오는 것을 확인하였다.
 
 - 해결방안: 다른 오픈소스 OCR인 EasyOCR을 사용할 수 있도록 파이썬의 Flask를 통해 Java SpringBoot와 OCR할 Image를 통신하였고 PreProcessing과 PostProcessing을 전부 진행 후 결과를 리턴받았다.
 
-#### 3. 카메라 밝기에 대한 OCR 결과와 이미지의 잡음 제거 문제점
+### 3. 카메라 밝기에 대한 OCR 결과와 이미지의 잡음 제거 문제점
 - 원인: 같은 장소의 같은 환경에서 핸드폰 기종이 다르게 되면 OCR 결과가 유의미하게 달라지는 문제가 발생하였다.
 
 - 원인분석: 회색조 영상으로 변환 후 밝기를 계산해보니 기종 별로 Image의 밝기 차이가 나는 것을 확인하였다.
