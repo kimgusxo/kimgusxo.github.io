@@ -34,3 +34,8 @@ exclude:
   - Gemfile
   - Gemfile.lock
 include: [_pages]
+
+# Custom folder
+collections:
+  team_projects:
+    output: true
