@@ -7,12 +7,10 @@ permalink: /team-projects/
 <h1>{{ page.title }}</h1>
 
 <ul>
-    {% for page in site.pages %}
-        {% if page.categories contains "team-projects" %}
-            <li>
-                <a href="{{ page.url }}">{{ page.title }}</a>
-                <span>{{ page.date | date: "%Y-%m-%d" }}</span>
-            </li>
-        {% endif %}
+    {% for project in site.team_projects %}
+    <li>
+        <a href="{{ project.url }}">{{ project.title }}</a>
+        <span>{{ project.date | date: "%Y-%m-%d" }}</span>
+    </li>
     {% endfor %}
 </ul>
