@@ -47,3 +47,28 @@ layout: default
     </div>
   </div>
 </section>
+
+<style>
+  .skills-section {
+    margin: 40px 0;
+  }
+
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* 그리드 레이아웃을 가로로 배치 */
+    gap: 20px; /* 아이템 사이의 간격 */
+    justify-items: center; /* 그리드 아이템을 가운데 정렬 */
+    align-items: center; /* 그리드 아이템을 수직으로 가운데 정렬 */
+  }
+
+  .skill-box {
+    text-align: center;
+  }
+
+  .skill-image {
+    width: 100px; /* 모든 이미지를 동일한 크기로 조정 */
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+</style>
