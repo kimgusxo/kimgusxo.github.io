@@ -2,17 +2,48 @@
 layout: default
 ---
 
-{% for post in paginator.posts %}
-<article class="main-article">
-  <div class="wrap-content">
-    <header class="header-article">
-      <h2 class="title-article"><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
-      <div class="post-date"><span>{{post.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
-    </header>
-    {% if post.img %}
-       <img class="post-image" src={{ "/assets/img/" | prepend: site.baseurl | append: post.img }} alt="{{post.title}}">
-    {% endif %}
-    <p>{{post.description}} <a class="more" href="{{post.url | prepend: site.baseurl}}">(Read more...)</a></p>
+<!-- 사용 언어 섹션 -->
+<section class="skills-section">
+  <h2>사용 언어</h2>
+  <div class="skills-grid">
+    <div class="skill-box">
+      <img src="{{ site.baseurl }}/assets/img/java.png" alt="Java" class="skill-image">
+      <p>Java</p>
+    </div>
+    <div class="skill-box">
+      <img src="{{ site.baseurl }}/assets/img/python.png" alt="Python" class="skill-image">
+      <p>Python</p>
+    </div>
+    <div class="skill-box">
+      <img src="{{ site.baseurl }}/assets/img/kotlin.png" alt="Kotlin" class="skill-image">
+      <p>Kotlin</p>
+    </div>
+    <div class="skill-box">
+      <img src="{{ site.baseurl }}/assets/img/javascript.png" alt="JavaScript" class="skill-image">
+      <p>JavaScript</p>
+    </div>
   </div>
-</article>
-{% endfor %}
+</section>
+
+<!-- 사용 프레임워크 및 데이터베이스 섹션 -->
+<section class="skills-section">
+  <h2>사용 프레임워크 및 데이터베이스</h2>
+  <div class="skills-grid">
+    <div class="skill-box">
+      <img src="{{ site.baseurl }}/assets/img/spring.png" alt="Spring Framework" class="skill-image">
+      <p>Spring Framework</p>
+    </div>
+    <div class="skill-box">
+      <img src="{{ site.baseurl }}/assets/img/vue.png" alt="Vue.js" class="skill-image">
+      <p>Vue.js</p>
+    </div>
+    <div class="skill-box">
+      <img src="{{ site.baseurl }}/assets/img/postgresql.png" alt="PostgreSQL" class="skill-image">
+      <p>PostgreSQL</p>
+    </div>
+    <div class="skill-box">
+      <img src="{{ site.baseurl }}/assets/img/mysql.png" alt="MySQL" class="skill-image">
+      <p>MySQL</p>
+    </div>
+  </div>
+</section>
