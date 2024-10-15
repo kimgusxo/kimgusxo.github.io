@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "PillGood"
-permalink: /pillgood/
+permalink: /team-projects/pillgood/
 categories: team-projects
 img: PillGood-thumbNail.jpg
 date: 2023-03-06 00:00:00 +0900

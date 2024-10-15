@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Picstagram"
-permalink: /picstagram/
+permalink: /team-projects/picstagram/
 categories: team-projects
 img: Picstagram-thumbNail.jpg
 date:   2022-09-06 00:00:00 +0900
