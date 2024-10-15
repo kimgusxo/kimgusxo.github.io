@@ -3,7 +3,7 @@ layout: default
 ---
 
 <!-- 사용 언어 섹션 -->
-<section class="skills-section">
+<section class="skills-section white-background">
   <h2>사용 언어</h2>
   <div class="skills-grid">
     <div class="skill-box">
@@ -26,7 +26,7 @@ layout: default
 </section>
 
 <!-- 사용 프레임워크 및 데이터베이스 섹션 -->
-<section class="skills-section">
+<section class="skills-section white-background">
   <h2>사용 프레임워크 및 데이터베이스</h2>
   <div class="skills-grid">
     <div class="skill-box">
@@ -49,6 +49,13 @@ layout: default
 </section>
 
 <style>
+  .white-background {
+    background-color: #ffffff; /* 흰 배경 추가 */
+    padding: 40px; /* 섹션 내부 여백 추가 */
+    border-radius: 10px; /* 모서리를 둥글게 만듦 (선택 사항) */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 약간의 그림자 효과 */
+  }
+
   .skills-section {
     margin: 40px 0;
   }
@@ -66,9 +73,8 @@ layout: default
   }
 
   .skill-image {
-    width: 200px; /* 모든 이미지를 동일한 크기로 조정 */
+    width: 400px; /* 이미지 크기를 400px로 조정 */
     height: auto;
     margin-bottom: 10px;
   }
-
 </style>
