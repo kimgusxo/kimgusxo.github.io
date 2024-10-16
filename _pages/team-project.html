@@ -12,7 +12,7 @@ permalink: /team-projects/
         <div class="page-content">
             {% for post in site.team_projects %}
             <div class="project-post">
-                <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                <h2>{{ post.title }}</h2>
                 <div class="page-date"><span>{{ post.date | date: '%Y, %b %d' }}&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
                 {% if post.img %}
                 <img class="page-img" src="{{ "/assets/img/" | prepend: site.baseurl | append: post.img }}" alt="{{ post.title }}">
@@ -24,3 +24,46 @@ permalink: /team-projects/
         </div>
     </div>
 </article>
+
+<style>
+    /* 여백과 박스 스타일 추가 */
+    .project-post {
+        background-color: #fff;
+        padding: 20px;
+        margin-bottom: 20px; /* 각 포스트 사이 여백 */
+        border-radius: 10px; /* 박스 모서리 둥글게 */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 박스 그림자 */
+    }
+
+    .project-post h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .project-post p {
+        font-size: 16px;
+        color: #666;
+    }
+
+    .page-img {
+        width: 100%;
+        height: auto;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        border-radius: 5px;
+    }
+
+    .read-more {
+        display: inline-block;
+        margin-top: 10px;
+        padding: 10px 20px;
+        background-color: #007BFF;
+        color: white;
+        border-radius: 5px;
+        text-decoration: none;
+    }
+
+    .read-more:hover {
+        background-color: #0056b3;
+    }
+</style>
