@@ -9,18 +9,18 @@ permalink: /team-projects/
         <header class="page-header">
             <h1 class="page-title">{{page.title}}</h1>
         </header>
-        <div class="page-content">
+        <div class="page-content" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px;">
             {% for post in site.team_projects %}
-            <div class="project-post" style="padding-bottom: 20px; border-bottom: 1px solid #ddd; margin-bottom: 40px;">
+            <div class="project-post" style="border: 1px solid #ddd; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); padding: 20px; background-color: #fff;">
                 <header class="page-header">
                     <h1 class="page-title">{{post.title}}</h1>
                 </header>
                 <div class="page-date"><span>{{ post.date | date: '%Y, %b %d' }}&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
                 {% if post.img %}
-                <img class="page-img" src="{{ "/assets/img/" | prepend: site.baseurl | append: post.img }}" alt="{{ post.title }}">
+                <img class="page-img" src="{{ "/assets/img/" | prepend: site.baseurl | append: post.img }}" alt="{{ post.title }}" style="width: 100%; border-radius: 8px; margin-bottom: 15px;">
                 {% endif %}
                 <p>{{ post.description }}</p>
-                <a href="{{ post.url }}" class="read-more">Read More</a>
+                <a href="{{ post.url }}" class="read-more" style="color: #3498db; text-decoration: none;">Read More</a>
             </div>
             {% endfor %}
         </div>
