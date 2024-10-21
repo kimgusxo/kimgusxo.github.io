@@ -4,13 +4,10 @@ title: "Algorithm"
 permalink: /algorithm/
 ---
 
-<h1>{{ page.title }}</h1>
-
-<ul>
-    {% for post in site.categories.algorithm %}
-    <li>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-        <span>{{ post.date | date: "%Y-%m-%d" }}</span>
-    </li>
-    {% endfor %}
-</ul>
+<article class="page-article">
+    <div class="wrap-content">
+        <header class="page-header">
+            <h1 class="page-title">{{page.title}}</h1>
+        </header>
+    </div>
+</article>
