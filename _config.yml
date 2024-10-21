@@ -39,3 +39,5 @@ include: [_pages]
 collections:
   team_projects:
     output: true
+  personal_projects:
+    output: true
