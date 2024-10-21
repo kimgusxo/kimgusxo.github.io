@@ -1,8 +1,10 @@
 ---
 layout: post
-title:  "Picstagram"
-permalink: /picstagram/
-img: Picstagram-thumbNail.jpg
-date: 2022-09-06 00:00:00 +0900
-description: 실시간 여행 공유 SNS 어플리케이션
+title:  "Light Me!"
+permalink: /lightme/
+img: LightMe-thumbNail.jpg
+date: 2024-09-12 00:00:00 +0900
+description: K-POP 팬들을 위한 덕질 어플리케이션
 ---
+
+

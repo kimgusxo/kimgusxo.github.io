@@ -1,8 +1,10 @@
 ---
 layout: post
-title:  "Picstagram"
-permalink: /picstagram/
-img: Picstagram-thumbNail.jpg
-date: 2022-09-06 00:00:00 +0900
-description: 실시간 여행 공유 SNS 어플리케이션
+title: "LibraryCompetition"
+permalink: /librarycompetition/
+img: LibraryCompetition-thumbNail.jpg
+date: 2024-08-30 00:00:00 +0900
+description: (국립 중앙도서관 아이디어 공모전) 도서 훼손 판독을 통한 대시보드 어플리케이션
 ---
+
+
