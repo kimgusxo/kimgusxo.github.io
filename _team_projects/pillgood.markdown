@@ -12,7 +12,7 @@ description: OCR 기술을 활용한 처방전 기반 자동 복약관리 어플
 
 <br>
 
-## 1. 데모 링크
+## 1. 깃허브 링크
 - [PillGood-UI](https://www.figma.com/file/98GhZVArtu01389vLCcxB6/%ED%95%84%EA%B5%BF?type=design&node-id=0-1&mode=design){: target="_blank"}
 - [PillGood](https://github.com/kimgusxo/pillgood){: target="_blank"}
 - [PillGood-OCR](https://github.com/kimgusxo/pillgood-ocr){: target="_blank"}
@@ -31,7 +31,7 @@ description: OCR 기술을 활용한 처방전 기반 자동 복약관리 어플
 
 <br>
 
-## 3. Back-End 사용 기술
+## 3. Back-End 기술 스택
 ### Database Server
 - Java 11
 - Spring Boot 2.7.8
@@ -41,7 +41,7 @@ description: OCR 기술을 활용한 처방전 기반 자동 복약관리 어플
 - Firebase Authentication
 - Firebase Cloud Message
 
-### Model Server
+### Model Server 기술 스택
 - Python 3.8
 - Flask
 - OpenCV
@@ -100,12 +100,12 @@ description: OCR 기술을 활용한 처방전 기반 자동 복약관리 어플
 
 <br>
 
-## 5. 서비스 아키텍쳐
+## 6. 서비스 아키텍쳐
 ![ServiceArchitecture](../assets/img/PillGood-ServiceArchitecture.png)
 
 <br>
 
-## 6. 코드 파트 및 구현 이유
+## 7. 코드 파트 및 구현 이유
 - <b>데이터 서버: 그룹원, 약, 처방전, 복약, 복약 현황 기능 구현</b>
 	- <b>그룹원: 그룹원 생성, 수정, 삭제 구현</b>
 		<details>
@@ -230,7 +230,7 @@ description: OCR 기술을 활용한 처방전 기반 자동 복약관리 어플
 
 <br>
 
-## 7. 문제점 회고
+## 8. 문제점 회고
 ### 1. 데이터 직렬화의 순환참조 문제
 - 원인: JPA에서 양방향으로 연결된 Entity를 JSON으로 직렬화하는 과정에서 계속해서 참조하여 StackOverFlowError를 발생시키는 현상이다.
 
