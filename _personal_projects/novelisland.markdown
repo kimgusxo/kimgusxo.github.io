@@ -3,7 +3,7 @@ layout: post
 title:  "NovelIsland"
 permalink: /novelisland/
 img: NovelIsland-thumbNail.png
-date:   2023-12-06 00:00:00 +0900
+date: 2023-12-06 00:00:00 +0900
 description: 문장형 소설 검색 엔진 사이트
 ---
 
@@ -20,7 +20,7 @@ description: 문장형 소설 검색 엔진 사이트
 <br>
 
 ## 2. 제작 기간 & 참여 인원
-- 2023년 9월 1일 ~ 2023년 11월 18일
+- 2023년 10월 1일 ~ 2023년 12월 06일
 - 개인프로젝트
 - Front-End & Back-End
   - 김현태(금오공과대학교)
