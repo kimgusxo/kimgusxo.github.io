@@ -892,8 +892,12 @@ pre code {
   text-align: center;
   margin-bottom: 1rem;
 }
+
+.page-article .wrap-content {
+  width: 1800px;
+}
+
 .main-article .wrap-content, .page-article .wrap-content, .post .wrap-content {
-  max-width: 80%;
   background-color: #fff;
   padding: 1rem;
 }
