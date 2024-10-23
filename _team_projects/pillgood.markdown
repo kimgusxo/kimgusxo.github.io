@@ -66,12 +66,12 @@ description: OCR 기술을 활용한 처방전 기반 자동 복약관리 어플
 <summary><b>핵심 기능 설명 펼치기</b></summary>
 <div markdown="1">
 
-## 5.1. Controller
+## 5-1. Controller
 ### - OCR 모델서버로 이미지 전송
 ![sendImage](../assets/img/PillGood-SendImage.png)
 - Controller에서는 MultiPartFile로 이미지를 전달받고 OCR 모델서버로 이미지를 전송합니다. 그 후 전송된 이미지의 OCR 결과를 받고 정보를 추가하여 사용자에게 응답합니다.
 
-## 5.2. Service
+## 5-2. Service
 ### - FCM 전송
 <video controls>
 	<source src = "../assets/wav/PillGood-Notification.mp4" type = "video/mp4">
@@ -79,7 +79,7 @@ description: OCR 기술을 활용한 처방전 기반 자동 복약관리 어플
 </video>
 - 유저의 FCM 토큰을 통해 OCR이 완료됬다는 알림을 보냅니다.
 
-## 5.3. Repository
+## 5-3. Repository
 ### - 약 검색 동적쿼리
 <video controls>
 	<source src = "../assets/wav/PillGood-SearchingPill.mp4" type = "video/mp4">
@@ -87,7 +87,7 @@ description: OCR 기술을 활용한 처방전 기반 자동 복약관리 어플
 </video>
 - DTO에 저장된 값이 빈값 또는 Null값인지 확인하여 Criteria Interface 구현체를 통해 동적쿼리를 생성하여 해당 특징의 약을 검색합니다.
 
-## 5.4. OCR
+## 5-4. OCR
 ### - 이미지 전처리
 <div style = "display: flex;">
 	<img src="../assets/img/PillGood-OriginalImage.png" style = "flex: 1; width: 50%; height: auto;">

@@ -65,7 +65,7 @@ description: 문장형 소설 검색 엔진 사이트
 <br>
 
 ## 4. ERD 다이어그램
-![ERD Diagram]()
+![ERD Diagram](../assets/img/NovelIsland-ERDDiagram.png)
 
 <br>
 
@@ -79,7 +79,142 @@ description: 문장형 소설 검색 엔진 사이트
 <summary><b>핵심 기능 설명 펼치기</b></summary>
 <div markdown="1">
 
+## 5-1. 소설 검색
+<details>
 
+<summary>
+  <b>소설 검색 보기</b>
+</summary>
+		
+<div markdown="1">
+		
+![NovelSearch](../assets/img/NovelIsland-NovelSearch.png)
+		
+</div>
+</details>
+
+## 5-2. 작가 검색
+
+<details>
+
+<summary>
+  <b>작가 검색 보기</b>
+</summary>
+
+<div markdown="1">
+
+![AuthorSearch](../assets/img/NovelIsland-AuthorSearch.png)
+
+</div>
+</details>
+
+## 5-3. 장르 검색
+
+<details>
+
+<summary>
+  <b>장르 검색 보기</b>
+</summary>
+
+<div markdown="1">
+
+![GenreSearch](../assets/img/NovelIsland-GenreSearch.png)
+
+</div>
+</details>
+
+## 5-4. 북마크 관리
+
+<details>
+
+<summary>
+  <b>북마크 관리 보기</b>
+</summary>
+
+<div markdown="1">
+
+![Bookmark1](../assets/img/NovelIsland-Bookmark1.png)
+![Bookmark2](../assets/img/NovelIsland-Bookmark2.png)
+
+</div>
+</details>
+
+## 5-5. 북마크 등록
+
+<details>
+
+<summary>
+  <b>북마크 등록 보기</b>
+</summary>
+
+<div markdown="1">
+
+![BookmarkRegistration1](../assets/img/NovelIsland-BookmarkRegistration1.png)
+![BookmarkRegistration1](../assets/img/NovelIsland-BookmarkRegistration2.png)
+</div>
+</details>
+
+## 5-6. 북마크 해제
+
+<details>
+
+<summary>
+  <b>코드 펼치기</b>
+</summary>
+
+<div markdown="1">
+
+![BookmarkClear1](../assets/img/NovelIsland-BookmarkClear1.png)
+![BookmarkClear2](../assets/img/NovelIsland-BookmarkClear2.png)
+
+</div>
+</details>
+
+## 5-7. 문장형 소설 검색
+
+<details>
+
+<summary>
+  <b>문장형 소설 검색 보기</b>
+</summary>
+
+<div markdown="1">
+
+![SentenceSearch1](../assets/img/NovelIsland-SentenceSearch1.png)
+![SentenceSearch2](../assets/img/NovelIsland-SentenceSearch2.png)
+
+</div>
+</details>
+
+## 5-8. 소설 상세정보
+
+<details>
+
+<summary>
+  <b>소설 상세정보 보기</b>
+</summary>
+
+<div markdown="1">
+
+![NovelDescription](../assets/img/NovelIsland-NovelDescription.png)
+
+</div>
+</details>
+
+## 5-9. 웹소설 데이터 크롤링
+
+<details>
+
+<summary>
+  <b>데이터 크롤링 보기</b>
+</summary>
+
+<div markdown="1">
+
+
+
+</div>
+</details>
 
 </div>
 </details>
@@ -87,19 +222,54 @@ description: 문장형 소설 검색 엔진 사이트
 <br>
 
 ## 6. 배치 다이어그램
-![BatchDiagram]()
+![BatchDiagram](../assets/img/NovelIsland-BatchDiagram.png)
 
 <br>
 
 ## 7. 스프링 사용 기술 코드
 - 백엔드 서버: Spring Test, Spring Batch, Spring Security
-    - Spring Test(Controller, Service, Repository 단위 테스트)
+- Spring Test(Controller, Service, Repository 단위 테스트)
+  <details>
 
-    - Spring Test(통합 테스트)
+  <summary>
+  <b>데이터 크롤링 보기</b>
+  </summary>
 
-    - Spring Batch
+  <div markdown="1">
 
-    - Spring Security
+
+
+  </div>
+  </details>
+- Spring Test(통합 테스트)
+  <details>
+
+  <summary>
+    <b>데이터 크롤링 보기</b>
+  </summary>
+
+  <div markdown="1">
+
+
+
+  </div>
+  </details>
+
+- Spring Batch
+  <details>
+
+  <summary>
+    <b>데이터 크롤링 보기</b>
+  </summary>
+
+  <div markdown="1">
+
+
+
+  </div>
+  </details>
+
+- Spring Security
 
 <br>
 
