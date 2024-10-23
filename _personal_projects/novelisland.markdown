@@ -232,7 +232,7 @@ description: 문장형 소설 검색 엔진 사이트
   <details>
 
   <summary>
-  <b>데이터 크롤링 보기</b>
+  <b>코드 펼치기</b>
   </summary>
 
   <div markdown="1">
@@ -245,7 +245,7 @@ description: 문장형 소설 검색 엔진 사이트
   <details>
 
   <summary>
-    <b>데이터 크롤링 보기</b>
+    <b>코드 펼치기</b>
   </summary>
 
   <div markdown="1">
@@ -259,7 +259,7 @@ description: 문장형 소설 검색 엔진 사이트
   <details>
 
   <summary>
-    <b>데이터 크롤링 보기</b>
+    <b>코드 펼치기</b>
   </summary>
 
   <div markdown="1">
@@ -273,7 +273,7 @@ description: 문장형 소설 검색 엔진 사이트
   <details>
 
   <summary>
-    <b>데이터 크롤링 보기</b>
+    <b>코드 펼치기</b>
   </summary>
 
   <div markdown="1">
