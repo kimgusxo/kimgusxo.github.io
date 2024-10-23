@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "NovelIsland"
-permalink: /novelisland/
+title:  "Lotto"
+permalink: /lotto/
 img: NovelIsland-thumbNail.png
 date: 2023-12-06 00:00:00 +0900
-description: 문장형 소설 검색 엔진 사이트
+description: (데이터 시각화와 집계 함수 공부용) 로또 데이터 분석 사이트
 ---

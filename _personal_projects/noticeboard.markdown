@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "NovelIsland"
-permalink: /novelisland/
+title:  "NoticeBoard"
+permalink: /noticeboard/
 img: NovelIsland-thumbNail.png
 date: 2023-12-06 00:00:00 +0900
-description: 문장형 소설 검색 엔진 사이트
+description: (반응형 프로그래밍 공부용) 게시판 사이트
 ---
