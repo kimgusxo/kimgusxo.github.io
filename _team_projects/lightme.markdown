@@ -45,3 +45,14 @@ description: (부트캠프 CX 프로젝트) K-POP 팬들을 위한 덕질 어플
 - Spring Data JPA
 - PostgreSQL
 
+<br>
+
+## 4. ERD 다이어그램
+![ERD Diagram](../assets/img)
+
+<br>
+
+## 5. 핵심 기능
+이 서비스의 핵심 기능은 감정일기 공유입니다.
+사용자는 
+
