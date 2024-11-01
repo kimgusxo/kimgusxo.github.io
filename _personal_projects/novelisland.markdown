@@ -159,7 +159,7 @@ description: (엘라스틱서치와 배포 공부용) 문장형 소설 검색 �
 <details>
 
 <summary>
-  <b>코드 펼치기</b>
+  <b>북마크 해제 펼치기</b>
 </summary>
 
 <div markdown="1">

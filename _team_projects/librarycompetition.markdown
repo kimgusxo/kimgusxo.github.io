@@ -41,7 +41,7 @@ description: (국립 중앙도서관 아이디어 공모전) 도서 훼손 판�
 <br>
 
 ## 4. 어플리케이션 개발 이유
-[Graph](../assets/img/LibraryCompetition-Graph.png)
+![Graph](../assets/img/LibraryCompetition-Graph.png)
 - 훼손/분실로 폐기되는 도서들이 증가하고 있고 책의 재구매를 위해 일정비용 이상 지출중임.
 
 <br>
