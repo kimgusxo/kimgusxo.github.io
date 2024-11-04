@@ -31,11 +31,11 @@ description: (교내프로젝트) 실시간 여행 공유 SNS 어플리케이션
 
 ## 3. Back-End 사용 기술
 ### Database Server
-    - Javascript
-    - React Native
-	- Node.js
-    - Firebase Authentication
-    - Firebase FireStore
+- Javascript
+- React Native
+- Node.js
+- Firebase Authentication
+- Firebase FireStore
 
 <br>
 
@@ -68,57 +68,42 @@ description: (교내프로젝트) 실시간 여행 공유 SNS 어플리케이션
 
 ## 5. 서비스 아키텍쳐
 
-
 <br>
 
 ## 6. 코드 파트 및 구현 이유
-- 백엔드 파트
-    - 그룹원: 그룹원 생성, 수정, 삭제 구현
-		<details>
+- 그룹원: 그룹원 생성, 수정, 삭제 구현
+<details>
+<summary>
+<b>코드 펼치기</b>
+</summary>
+<div markdown="1">
+![GroupMemberFunction](../assets/img/PillGood-GroupMemberFunctionCode.png)
+</div>
+</details>
 
-		<summary>
-		<b>코드 펼치기</b>
-		</summary>
+<br>
 
-		<div markdown="1">
+- 그룹원: 그룹원 생성, 수정, 삭제 구현
+<details>
+<summary>
+<b>코드 펼치기</b>
+</summary>
+<div markdown="1">
+![GroupMemberFunction](../assets/img/PillGood-GroupMemberFunctionCode.png)
+</div>
+</details>
 
-		![GroupMemberFunction](../assets/img/PillGood-GroupMemberFunctionCode.png)
+<br>
 
-		</div>
-		</details>
-
-    <br>
-
-    - 그룹원: 그룹원 생성, 수정, 삭제 구현
-		<details>
-
-		<summary>
-		<b>코드 펼치기</b>
-		</summary>
-
-		<div markdown="1">
-
-		![GroupMemberFunction](../assets/img/PillGood-GroupMemberFunctionCode.png)
-
-		</div>
-		</details>
-
-
-    <br>
-
-    - 그룹원: 그룹원 생성, 수정, 삭제 구현
-		<details>
-
-		<summary>
-		<b>코드 펼치기</b>
-		</summary>
-
-		<div markdown="1">
-
-		![GroupMemberFunction](../assets/img/PillGood-GroupMemberFunctionCode.png)
-
-		</div>
-		</details>
+- 그룹원: 그룹원 생성, 수정, 삭제 구현
+<details>
+<summary>
+<b>코드 펼치기</b>
+</summary>
+<div markdown="1">
+![GroupMemberFunction](../assets/img/PillGood-GroupMemberFunctionCode.png)
+</div>
+</details>
 
 <br>
 

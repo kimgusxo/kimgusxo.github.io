@@ -8,7 +8,7 @@ description: (부트캠프 CX 프로젝트) K-POP 팬들을 위한 덕질 어플
 ---
 
 # :pushpin: Light Me!
-> K-POP 팬들을 위한 덕질 어플리케이션
+> K-POP 팬들을 위한 덕질 어플리케이션(프로토타입)
 
 <br>
 
@@ -26,33 +26,114 @@ description: (부트캠프 CX 프로젝트) K-POP 팬들을 위한 덕질 어플
 - 기획 1명
   - 신하경(LG전자 DX School): 화면 설계서 작성 및 BX 피피티 내용 작성
 - 클라이언트 1명
-  - 김현태(LG전자 DX School): 클라이언트 사이드 개발, 데이터 크롤링, 데이터 분석
+  - 김현태(LG전자 DX School): 클라이언트 사이드 개발, 데이터 크롤링, 데이터 분석, 데이터베이스 설계
 - 서버 1명
-  - 이창윤(LG전자 DX School): 서버 사이드 개발, 데이터 크롤링, 데이터 분석
+  - 이창윤(LG전자 DX School): 서버 사이드 개발, 데이터 크롤링, 데이터 분석, 데이터베이스 설계
 
 <br>
 
 ## 3. 기술 스택
-### 3-1. Client-Side 기술 스택
+### 3-1. Data Analyst 기술 스택
+- Python
+- BeautifulSoap
+- Selenium
+- Scipy
+- Gensim
+
+### 3-2. Client-Side 기술 스택
 - Kotlin
 - Retrofit
 - LiveData
 - Groovy
 
-### 3-2. Server-Side 기술 스택
-- Java
-- Spring Boot
-- Spring Data JPA
-- PostgreSQL
+<br>
+
+## 4. 데이터 분석
+데이터 분석 과정은 1차 크롤링을 통한 팬들의 은어 탐색, 2차 크롤링을 통한 팬덤 문화 데이터 크롤링,
+액터 클러스터링을 거쳐 기회영역 분석을 통해 페르소나 도출
+<details>
+<summary><b>데이터 분석 과정 설명 펼치기</b></summary>
+<div markdown="1">
+
+## 4-1. 1차 크롤링
+<details>
+<summary>
+<b>1차 크롤링 펼치기</b>
+</summary>
+<div markdown="1">
+![GroupMemberFunction](../assets/img/PillGood-GroupMemberFunctionCode.png)
+</div>
+</details>
+
+## 4-2. 2차 크롤링
+<details>
+<summary>
+<b>2차 크롤링 펼치기</b>
+</summary>
+<div markdown="1">
+![GroupMemberFunction](../assets/img/PillGood-GroupMemberFunctionCode.png)
+</div>
+</details>
+
+## 4-3. 1차 액션 클러스터링
+<details>
+<summary>
+<b>1차 액션 클러스터링 펼치기</b>
+</summary>
+<div markdown="1">
+![GroupMemberFunction](../assets/img/PillGood-GroupMemberFunctionCode.png)
+</div>
+</details>
+
+## 4-4. 1차 액션 토픽 분석
+<details>
+<summary>
+<b>1차 액션 토픽 분석 펼치기</b>
+</summary>
+<div markdown="1">
+![GroupMemberFunction](../assets/img/PillGood-GroupMemberFunctionCode.png)
+</div>
+</details>
+
+## 4-5. 2차 액션 클러스터링
+<details>
+<summary>
+<b>2차 액션 클러스터링 펼치기</b>
+</summary>
+<div markdown="1">
+![GroupMemberFunction](../assets/img/PillGood-GroupMemberFunctionCode.png)
+</div>
+</details>
+
+## 4-6. 2차 액션 토픽 분석
+<details>
+<summary>
+<b>2차 액션 토픽 분석 펼치기</b>
+</summary>
+<div markdown="1">
+![GroupMemberFunction](../assets/img/PillGood-GroupMemberFunctionCode.png)
+</div>
+</details>
+
+## 4-7. 페르소나 도출
+<details>
+<summary>
+<b>페르소나 도출 펼치기</b>
+</summary>
+<div markdown="1">
+![GroupMemberFunction](../assets/img/PillGood-GroupMemberFunctionCode.png)
+</div>
+</details>
+
+</div>
+</details>
+
+## 5. ERD 다이어그램
+![ERD Diagram](../assets/img/LightMe-ERDDiagram.png)
 
 <br>
 
-## 4. ERD 다이어그램
-![ERD Diagram](../assets/img)
-
-<br>
-
-## 5. 핵심 기능
-이 서비스의 핵심 기능은 감정 일기 공유입니다.
-사용자는 녹음버튼을 눌러 육성으로 녹음한 뒤 
+## 6. 핵심 기능
+이 서비스의 핵심 기능은 나만의 감정 일기 작성입니다.
+달력에 해당 날짜의 감정을 색깔로 표현하여 보여줍니다.
 
