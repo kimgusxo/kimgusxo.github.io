@@ -133,9 +133,42 @@ description: (부트캠프 CX 프로젝트) K-POP 팬들을 위한 덕질 어플
 
 <br>
 
-## 6. 핵심 기능
+## 6. 서비스 흐름도
+![ServiceFlow](../assets/img/LightMe-ServiceFlow.png)
+
+<br>
+
+## 7. 요구사항 분석
+
+<details>
+<summary><b>요구사항 분석 펼치기</b></summary>
+<div markdown="1">
+
+## 7-1. 
+<details>
+
+<summary>
+  <b> 보기</b>
+</summary>
+
+<div markdown="1">
+
+![NovelSearch](../assets/img/NovelIsland-NovelSearch.png)
+
+</div>
+</details>
+
+</div>
+</details>
+
+<br>
+
+## 8. 핵심 기능
 이 서비스의 핵심 기능은 나만의 감정 일기 작성입니다.
 달력에 해당 날짜의 감정을 색깔로 표현하여 보여줍니다.
+
+<br>
+
 
 
 
