@@ -48,9 +48,6 @@ description: (교내프로젝트) 실시간 여행 공유 SNS 어플리케이션
 이 서비스의 핵심 기능은 사진 일기입니다.
 사용자는 인앱 카메라로 사진을 찍거나 갤러리에 있는 사진을 통해
 위치 좌표를 기준으로 지도에 여행 경로를 표시합니다.
-
-<br>
- 
 <details>
 <summary><b>핵심 기능 설명 펼치기</b></summary>
 <div markdown="1">
@@ -68,42 +65,6 @@ description: (교내프로젝트) 실시간 여행 공유 SNS 어플리케이션
 
 ## 5. 서비스 아키텍쳐
 
-<br>
-
-## 6. 코드 파트 및 구현 이유
-- 그룹원: 그룹원 생성, 수정, 삭제 구현
-<details>
-<summary>
-<b>코드 펼치기</b>
-</summary>
-<div markdown="1">
-![GroupMemberFunction](../assets/img/PillGood-GroupMemberFunctionCode.png)
-</div>
-</details>
-
-<br>
-
-- 그룹원: 그룹원 생성, 수정, 삭제 구현
-<details>
-<summary>
-<b>코드 펼치기</b>
-</summary>
-<div markdown="1">
-![GroupMemberFunction](../assets/img/PillGood-GroupMemberFunctionCode.png)
-</div>
-</details>
-
-<br>
-
-- 그룹원: 그룹원 생성, 수정, 삭제 구현
-<details>
-<summary>
-<b>코드 펼치기</b>
-</summary>
-<div markdown="1">
-![GroupMemberFunction](../assets/img/PillGood-GroupMemberFunctionCode.png)
-</div>
-</details>
 
 <br>
 
