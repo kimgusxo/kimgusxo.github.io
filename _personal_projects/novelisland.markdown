@@ -65,7 +65,7 @@ description: (엘라스틱서치와 배포 공부용) 문장형 소설 검색 �
 <br>
 
 ## 4. ERD 다이어그램
-![ERD Diagram](../assets/img/NovelIsland-ERDDiagram.png)
+![ERD Diagram](../assets/img/personal_project/NovelIsland-ERDDiagram.png)
 
 <br>
 
@@ -88,7 +88,7 @@ description: (엘라스틱서치와 배포 공부용) 문장형 소설 검색 �
 		
 <div markdown="1">
 		
-![NovelSearch](../assets/img/NovelIsland-NovelSearch.png)
+![NovelSearch](../assets/img/personal_project/NovelIsland-NovelSearch.png)
 		
 </div>
 </details>
@@ -103,7 +103,7 @@ description: (엘라스틱서치와 배포 공부용) 문장형 소설 검색 �
 
 <div markdown="1">
 
-![AuthorSearch](../assets/img/NovelIsland-AuthorSearch.png)
+![AuthorSearch](../assets/img/personal_project/NovelIsland-AuthorSearch.png)
 
 </div>
 </details>
@@ -118,7 +118,7 @@ description: (엘라스틱서치와 배포 공부용) 문장형 소설 검색 �
 
 <div markdown="1">
 
-![GenreSearch](../assets/img/NovelIsland-GenreSearch.png)
+![GenreSearch](../assets/img/personal_project/NovelIsland-GenreSearch.png)
 
 </div>
 </details>
@@ -133,8 +133,8 @@ description: (엘라스틱서치와 배포 공부용) 문장형 소설 검색 �
 
 <div markdown="1">
 
-![Bookmark1](../assets/img/NovelIsland-Bookmark1.png)
-![Bookmark2](../assets/img/NovelIsland-Bookmark2.png)
+![Bookmark1](../assets/img/personal_project/NovelIsland-Bookmark1.png)
+![Bookmark2](../assets/img/personal_project/NovelIsland-Bookmark2.png)
 
 </div>
 </details>
@@ -149,8 +149,8 @@ description: (엘라스틱서치와 배포 공부용) 문장형 소설 검색 �
 
 <div markdown="1">
 
-![BookmarkRegistration1](../assets/img/NovelIsland-BookmarkRegistration1.png)
-![BookmarkRegistration1](../assets/img/NovelIsland-BookmarkRegistration2.png)
+![BookmarkRegistration1](../assets/img/personal_project/NovelIsland-BookmarkRegistration1.png)
+![BookmarkRegistration1](../assets/img/personal_project/NovelIsland-BookmarkRegistration2.png)
 </div>
 </details>
 
@@ -164,8 +164,8 @@ description: (엘라스틱서치와 배포 공부용) 문장형 소설 검색 �
 
 <div markdown="1">
 
-![BookmarkClear1](../assets/img/NovelIsland-BookmarkClear1.png)
-![BookmarkClear2](../assets/img/NovelIsland-BookmarkClear2.png)
+![BookmarkClear1](../assets/img/personal_project/NovelIsland-BookmarkClear1.png)
+![BookmarkClear2](../assets/img/personal_project/NovelIsland-BookmarkClear2.png)
 
 </div>
 </details>
@@ -180,8 +180,8 @@ description: (엘라스틱서치와 배포 공부용) 문장형 소설 검색 �
 
 <div markdown="1">
 
-![SentenceSearch1](../assets/img/NovelIsland-SentenceSearch1.png)
-![SentenceSearch2](../assets/img/NovelIsland-SentenceSearch2.png)
+![SentenceSearch1](../assets/img/personal_project/NovelIsland-SentenceSearch1.png)
+![SentenceSearch2](../assets/img/personal_project/NovelIsland-SentenceSearch2.png)
 
 </div>
 </details>
@@ -196,7 +196,7 @@ description: (엘라스틱서치와 배포 공부용) 문장형 소설 검색 �
 
 <div markdown="1">
 
-![NovelDescription](../assets/img/NovelIsland-NovelDescription.png)
+![NovelDescription](../assets/img/personal_project/NovelIsland-NovelDescription.png)
 
 </div>
 </details>
@@ -222,7 +222,7 @@ description: (엘라스틱서치와 배포 공부용) 문장형 소설 검색 �
 <br>
 
 ## 6. 배치 다이어그램
-![BatchDiagram](../assets/img/NovelIsland-BatchDiagram.png)
+![BatchDiagram](../assets/img/personal_project/NovelIsland-BatchDiagram.png)
 
 <br>
 

@@ -52,7 +52,7 @@ description: (교내 프로젝트) OCR 기술을 활용한 처방전 기반 자�
 <br>
 
 ## 4. ERD 다이어그램
-![ERD Diagram](../assets/img/PillGood-ERDDiagram.png)
+![ERD Diagram](../assets/img/team_project/PillGood-ERDDiagram.png)
 
 <br>
 
@@ -90,8 +90,8 @@ description: (교내 프로젝트) OCR 기술을 활용한 처방전 기반 자�
 ## 5-4. OCR
 ### - 이미지 전처리
 <div style = "display: flex;">
-	<img src="../assets/img/PillGood-OriginalImage.png" style = "flex: 1; width: 50%; height: auto;">
-	<img src="../assets/img/PillGood-PreProcessImage.png" style = "flex: 1; width: 50%; height: auto;">
+	<img src="../assets/img/team_project/PillGood-OriginalImage.png" style = "flex: 1; width: 50%; height: auto;">
+	<img src="../assets/img/team_project/PillGood-PreProcessImage.png" style = "flex: 1; width: 50%; height: auto;">
 </div>
 - 모델서버에서 이미지를 받게 되면 OpenCV를 사용하여 텍스트를 인식하기 쉽도록 텍스트 군집화를 통해 이미지를 자르고 이진화와 블러처리를 통해 OCR의 최적화된 이미지를 생성합니다.
 
@@ -101,7 +101,7 @@ description: (교내 프로젝트) OCR 기술을 활용한 처방전 기반 자�
 <br>
 
 ## 6. 서비스 아키텍쳐
-![ServiceArchitecture](../assets/img/PillGood-ServiceArchitecture.png)
+![ServiceArchitecture](../assets/img/team_project/PillGood-ServiceArchitecture.png)
 
 <br>
 
@@ -175,15 +175,15 @@ description: (교내 프로젝트) OCR 기술을 활용한 처방전 기반 자�
 </summary>
 <div markdown="1">
 <div style = "display: flex;">
-<img src="../assets/img/PillGood-BlackBinary.png" style = "flex: 1; width: 50%; height: auto;">
-<img src="../assets/img/PillGood-WhiteBinary.png" style = "flex: 1; width: 50%; height: auto;">
+<img src="../assets/img/team_project/PillGood-BlackBinary.png" style = "flex: 1; width: 50%; height: auto;">
+<img src="../assets/img/team_project/PillGood-WhiteBinary.png" style = "flex: 1; width: 50%; height: auto;">
 </div>
 
 <br>
 
 <div style = "display: flex;">
-<img src="../assets/img/PillGood-BrightnessCode.png" style = "flex: 1; width: 50%; height: auto;">
-<img src="../assets/img/PillGood-CroppedImage.png" style = "flex: 1; width: 50%; height: auto;">
+<img src="../assets/img/team_project/PillGood-BrightnessCode.png" style = "flex: 1; width: 50%; height: auto;">
+<img src="../assets/img/team_project/PillGood-CroppedImage.png" style = "flex: 1; width: 50%; height: auto;">
 </div>
 </div>
 </details>

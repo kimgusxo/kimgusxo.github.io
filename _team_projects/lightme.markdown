@@ -129,12 +129,12 @@ description: (부트캠프 CX 프로젝트) K-POP 팬들을 위한 덕질 어플
 </details>
 
 ## 5. ERD 다이어그램
-![ERD Diagram](../assets/img/LightMe-ERDDiagram.png)
+![ERD Diagram](../assets/img/team_project/LightMe-ERDDiagram.png)
 
 <br>
 
 ## 6. 서비스 흐름도
-![ServiceFlow](../assets/img/LightMe-ServiceFlow.png)
+![ServiceFlow](../assets/img/team_project/LightMe-ServiceFlow.png)
 
 <br>
 
@@ -152,7 +152,7 @@ description: (부트캠프 CX 프로젝트) K-POP 팬들을 위한 덕질 어플
 
 <div markdown="1">
 
-![NovelSearch](../assets/img/NovelIsland-NovelSearch.png)
+![NovelSearch](../assets/img/personal_project/NovelIsland-NovelSearch.png)
 
 </div>
 </details>
@@ -179,7 +179,7 @@ description: (부트캠프 CX 프로젝트) K-POP 팬들을 위한 덕질 어플
 
 <div markdown="1">
 
-![NovelSearch](../assets/img/NovelIsland-NovelSearch.png)
+![NovelSearch](../assets/img/personal_project/NovelIsland-NovelSearch.png)
 
 </div>
 </details>

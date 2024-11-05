@@ -40,7 +40,7 @@ description: (교내프로젝트) 실시간 여행 공유 SNS 어플리케이션
 <br>
 
 ## 4. 데이터베이스 구조
-![ERD Diagram](../assets/img/Picstagram-DBConstruct.png)
+![ERD Diagram](../assets/img/team_project/Picstagram-DBConstruct.png)
 
 <br>
 
