@@ -4,7 +4,7 @@ title:  "Light Me!"
 permalink: /lightme/
 img: team_project/LightMe-thumbNail.png
 date: 2024-09-12 00:00:00 +0900
-description: (부트캠프 CX 프로젝트) K-POP 팬들을 위한 덕질 어플리케이션
+description: (부트캠프 CX 프로젝트) K-POP 팬들을 위한 덕질 어플리케이션(프로토타입)
 ---
 
 # :pushpin: Light Me!
@@ -138,21 +138,63 @@ description: (부트캠프 CX 프로젝트) K-POP 팬들을 위한 덕질 어플
 
 <br>
 
-## 7. 요구사항 분석
+## 7. 유스케이스 시나리오
 <details>
-<summary><b>요구사항 분석 펼치기</b></summary>
+<summary><b>유스케이스 시나리오 펼치기</b></summary>
 <div markdown="1">
 
-## 7-1. 
+## 7-1. 계정 유스케이스 시나리오
 <details>
 
 <summary>
-  <b> 보기</b>
+  <b>계정 유스케이스 시나리오 보기</b>
 </summary>
 
 <div markdown="1">
 
-![NovelSearch](../assets/img/personal_project/NovelIsland-NovelSearch.png)
+![UseCase1](../assets/img/personal_project/NovelIsland-NovelSearch.png)
+
+</div>
+</details>
+
+## 7-2. 설정 유스케이스 시나리오
+<details>
+
+<summary>
+  <b>설정 유스케이스 시나리오 보기</b>
+</summary>
+
+<div markdown="1">
+
+![UseCase2](../assets/img/personal_project/NovelIsland-NovelSearch.png)
+
+</div>
+</details>
+
+## 7-3. 덕질 유스케이스 시나리오
+<details>
+
+<summary>
+  <b>덕질 유스케이스 시나리오 보기</b>
+</summary>
+
+<div markdown="1">
+
+![UseCase3](../assets/img/personal_project/NovelIsland-NovelSearch.png)
+
+</div>
+</details>
+
+## 7-4. 팬덤 유스케이스 시나리오
+<details>
+
+<summary>
+  <b>팬덤 유스케이스 시나리오 보기</b>
+</summary>
+
+<div markdown="1">
+
+![UseCase4](../assets/img/personal_project/NovelIsland-NovelSearch.png)
 
 </div>
 </details>
@@ -170,7 +212,7 @@ description: (부트캠프 CX 프로젝트) K-POP 팬들을 위한 덕질 어플
 <summary><b>핵심 기능 펼치기</b></summary>
 <div markdown="1">
 
-## 7-1. 
+## 8-1. 
 <details>
 
 <summary>
