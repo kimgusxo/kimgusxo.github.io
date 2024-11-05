@@ -128,6 +128,8 @@ description: (부트캠프 CX 프로젝트) K-POP 팬들을 위한 덕질 어플
 </div>
 </details>
 
+<br>
+
 ## 5. ERD 다이어그램
 ![ERD Diagram](../assets/img/team_project/LightMe-ERDDiagram.png)
 
