@@ -154,7 +154,7 @@ description: (부트캠프 CX 프로젝트) K-POP 팬들을 위한 덕질 어플
 
 <div markdown="1">
 
-![UseCase1](../assets/img/personal_project/NovelIsland-NovelSearch.png)
+![UseCase1](../assets/img/team_project/LightMe-UseCase1.png)
 
 </div>
 </details>
@@ -168,7 +168,7 @@ description: (부트캠프 CX 프로젝트) K-POP 팬들을 위한 덕질 어플
 
 <div markdown="1">
 
-![UseCase2](../assets/img/personal_project/NovelIsland-NovelSearch.png)
+![UseCase2](../assets/img/team_project/LightMe-UseCase2.png)
 
 </div>
 </details>
@@ -182,7 +182,7 @@ description: (부트캠프 CX 프로젝트) K-POP 팬들을 위한 덕질 어플
 
 <div markdown="1">
 
-![UseCase3](../assets/img/personal_project/NovelIsland-NovelSearch.png)
+![UseCase3](../assets/img/team_project/LightMe-UseCase3.png)
 
 </div>
 </details>
@@ -196,7 +196,7 @@ description: (부트캠프 CX 프로젝트) K-POP 팬들을 위한 덕질 어플
 
 <div markdown="1">
 
-![UseCase4](../assets/img/personal_project/NovelIsland-NovelSearch.png)
+![UseCase4](../assets/img/team_project/LightMe-UseCase4.png)
 
 </div>
 </details>
