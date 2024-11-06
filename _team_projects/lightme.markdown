@@ -61,7 +61,8 @@ description: (부트캠프 CX 프로젝트) K-POP 팬들을 위한 덕질 어플
 <b>1차 크롤링 펼치기</b>
 </summary>
 <div markdown="1">
-![FirstCrawling](../assets/img/.png)
+![FirstCrawling1](../assets/img/LightMe-Crawling1-1.png)
+![FirstCrawling2](../assets/img/LightMe-Crawling1-2.png)
 </div>
 </details>
 
@@ -71,7 +72,7 @@ description: (부트캠프 CX 프로젝트) K-POP 팬들을 위한 덕질 어플
 <b>2차 크롤링 펼치기</b>
 </summary>
 <div markdown="1">
-![SecondCrawling](../assets/img/.png)
+![SecondCrawling](../assets/img/LightMe-Crawling2.png)
 </div>
 </details>
 
@@ -81,7 +82,7 @@ description: (부트캠프 CX 프로젝트) K-POP 팬들을 위한 덕질 어플
 <b>1차 액션 클러스터링 펼치기</b>
 </summary>
 <div markdown="1">
-![FirstActionClustering](../assets/img/.png)
+![FirstActionClustering](../assets/img/LightMe-ActionClustering1.png)
 </div>
 </details>
 
@@ -91,7 +92,7 @@ description: (부트캠프 CX 프로젝트) K-POP 팬들을 위한 덕질 어플
 <b>1차 액션 토픽 분석 펼치기</b>
 </summary>
 <div markdown="1">
-![FirstActionTopicAnalysis](../assets/img/.png)
+![FirstActionTopicAnalysis](../assets/img/LightMe-ActionTopic1.png)
 </div>
 </details>
 
@@ -101,7 +102,7 @@ description: (부트캠프 CX 프로젝트) K-POP 팬들을 위한 덕질 어플
 <b>2차 액션 클러스터링 펼치기</b>
 </summary>
 <div markdown="1">
-![SecondActionClustering](../assets/img/.png)
+![SecondActionClustering](../assets/img/LightMe-ActionClustering2.png)
 </div>
 </details>
 
@@ -111,7 +112,7 @@ description: (부트캠프 CX 프로젝트) K-POP 팬들을 위한 덕질 어플
 <b>2차 액션 토픽 분석 펼치기</b>
 </summary>
 <div markdown="1">
-![SecondActionTopicAnalysis](../assets/img/.png)
+![SecondActionTopicAnalysis](../assets/img/LightMe-ActionTopic2.png)
 </div>
 </details>
 
@@ -121,7 +122,7 @@ description: (부트캠프 CX 프로젝트) K-POP 팬들을 위한 덕질 어플
 <b>페르소나 도출 펼치기</b>
 </summary>
 <div markdown="1">
-![](../assets/img/.png)
+![Persona](../assets/img/LightMe-Persona.png)
 </div>
 </details>
 
@@ -214,11 +215,53 @@ description: (부트캠프 CX 프로젝트) K-POP 팬들을 위한 덕질 어플
 <summary><b>핵심 기능 펼치기</b></summary>
 <div markdown="1">
 
-## 8-1. 
+## 8-1. 메인 페이지
 <details>
 
 <summary>
-  <b> 보기</b>
+  <b>메인 페이지 보기</b>
+</summary>
+
+<div markdown="1">
+
+![NovelSearch](../assets/img/personal_project/NovelIsland-NovelSearch.png)
+
+</div>
+</details>
+
+## 8-2. 메인 페이지
+<details>
+
+<summary>
+  <b>메인 페이지 보기</b>
+</summary>
+
+<div markdown="1">
+
+![NovelSearch](../assets/img/personal_project/NovelIsland-NovelSearch.png)
+
+</div>
+</details>
+
+## 8-3. 메인 페이지
+<details>
+
+<summary>
+  <b>메인 페이지 보기</b>
+</summary>
+
+<div markdown="1">
+
+![NovelSearch](../assets/img/personal_project/NovelIsland-NovelSearch.png)
+
+</div>
+</details>
+
+## 8-4. 메인 페이지
+<details>
+
+<summary>
+  <b>메인 페이지 보기</b>
 </summary>
 
 <div markdown="1">
@@ -233,3 +276,5 @@ description: (부트캠프 CX 프로젝트) K-POP 팬들을 위한 덕질 어플
 
 <br>
 
+## 9. 문제점 회고
+1. 크롤링의 데이터가 방대해서 클러스터링이 제대로 안되는 현상 발생
