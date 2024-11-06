@@ -224,49 +224,49 @@ description: (부트캠프 CX 프로젝트) K-POP 팬들을 위한 덕질 어플
 
 <div markdown="1">
 
-![NovelSearch](../assets/img/personal_project/NovelIsland-NovelSearch.png)
+![Page1](../assets/img/team_project/LightMe-Page1.png)
 
 </div>
 </details>
 
-## 8-2. 메인 페이지
+## 8-2. 설정 페이지
 <details>
 
 <summary>
-  <b>메인 페이지 보기</b>
+  <b>설정 페이지 보기</b>
 </summary>
 
 <div markdown="1">
 
-![NovelSearch](../assets/img/personal_project/NovelIsland-NovelSearch.png)
+![Page2](../assets/img/team_project/LightMe-Page2.png)
 
 </div>
 </details>
 
-## 8-3. 메인 페이지
+## 8-3. 덕질 인생 페이지
 <details>
 
 <summary>
-  <b>메인 페이지 보기</b>
+  <b>덕질 인생 페이지 보기</b>
 </summary>
 
 <div markdown="1">
 
-![NovelSearch](../assets/img/personal_project/NovelIsland-NovelSearch.png)
+![Page3](../assets/img/team_project/LightMe-Page3.png)
 
 </div>
 </details>
 
-## 8-4. 메인 페이지
+## 8-4. 팬덤 놀이터 페이지
 <details>
 
 <summary>
-  <b>메인 페이지 보기</b>
+  <b>팬덤 놀이터 페이지 보기</b>
 </summary>
 
 <div markdown="1">
 
-![NovelSearch](../assets/img/personal_project/NovelIsland-NovelSearch.png)
+![Page4](../assets/img/team_project/LightMe-Page4.png)
 
 </div>
 </details>
