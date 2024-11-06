@@ -61,8 +61,8 @@ description: (부트캠프 CX 프로젝트) K-POP 팬들을 위한 덕질 어플
 <b>1차 크롤링 펼치기</b>
 </summary>
 <div markdown="1">
-![FirstCrawling1](../assets/img/LightMe-Crawling1-1.png)
-![FirstCrawling2](../assets/img/LightMe-Crawling1-2.png)
+![FirstCrawling1](../assets/img/team-project/LightMe-Crawling1-1.png)
+![FirstCrawling2](../assets/img/team-project/LightMe-Crawling1-2.png)
 </div>
 </details>
 
@@ -72,7 +72,7 @@ description: (부트캠프 CX 프로젝트) K-POP 팬들을 위한 덕질 어플
 <b>2차 크롤링 펼치기</b>
 </summary>
 <div markdown="1">
-![SecondCrawling](../assets/img/LightMe-Crawling2.png)
+![SecondCrawling](../assets/img/team-project/LightMe-Crawling2.png)
 </div>
 </details>
 
@@ -82,7 +82,7 @@ description: (부트캠프 CX 프로젝트) K-POP 팬들을 위한 덕질 어플
 <b>1차 액션 클러스터링 펼치기</b>
 </summary>
 <div markdown="1">
-![FirstActionClustering](../assets/img/LightMe-ActionClustering1.png)
+![FirstActionClustering](../assets/img/team-project/LightMe-ActionClustering1.png)
 </div>
 </details>
 
@@ -92,7 +92,7 @@ description: (부트캠프 CX 프로젝트) K-POP 팬들을 위한 덕질 어플
 <b>1차 액션 토픽 분석 펼치기</b>
 </summary>
 <div markdown="1">
-![FirstActionTopicAnalysis](../assets/img/LightMe-ActionTopic1.png)
+![FirstActionTopicAnalysis](../assets/img/team-project/LightMe-ActionTopic1.png)
 </div>
 </details>
 
@@ -102,7 +102,7 @@ description: (부트캠프 CX 프로젝트) K-POP 팬들을 위한 덕질 어플
 <b>2차 액션 클러스터링 펼치기</b>
 </summary>
 <div markdown="1">
-![SecondActionClustering](../assets/img/LightMe-ActionClustering2.png)
+![SecondActionClustering](../assets/img/team-project/LightMe-ActionClustering2.png)
 </div>
 </details>
 
@@ -112,7 +112,7 @@ description: (부트캠프 CX 프로젝트) K-POP 팬들을 위한 덕질 어플
 <b>2차 액션 토픽 분석 펼치기</b>
 </summary>
 <div markdown="1">
-![SecondActionTopicAnalysis](../assets/img/LightMe-ActionTopic2.png)
+![SecondActionTopicAnalysis](../assets/img/team-project/LightMe-ActionTopic2.png)
 </div>
 </details>
 
@@ -122,7 +122,7 @@ description: (부트캠프 CX 프로젝트) K-POP 팬들을 위한 덕질 어플
 <b>페르소나 도출 펼치기</b>
 </summary>
 <div markdown="1">
-![Persona](../assets/img/LightMe-Persona.png)
+![Persona](../assets/img/team-project/LightMe-Persona.png)
 </div>
 </details>
 
