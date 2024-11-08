@@ -61,8 +61,8 @@ description: (부트캠프 CX 프로젝트) K-POP 팬들을 위한 덕질 어플
 <b>1차 크롤링 펼치기</b>
 </summary>
 <div markdown="1">
-![FirstCrawling1](../assets/img/team-project/LightMe-Crawling1-1.png)
-![FirstCrawling2](../assets/img/team-project/LightMe-Crawling1-2.png)
+![FirstCrawling1](../assets/img/team_project/LightMe-Crawling1-1.png)
+![FirstCrawling2](../assets/img/team_project/LightMe-Crawling1-2.png)
 </div>
 </details>
 
@@ -72,7 +72,7 @@ description: (부트캠프 CX 프로젝트) K-POP 팬들을 위한 덕질 어플
 <b>2차 크롤링 펼치기</b>
 </summary>
 <div markdown="1">
-![SecondCrawling](../assets/img/team-project/LightMe-Crawling2.png)
+![SecondCrawling](../assets/img/team_project/LightMe-Crawling2.png)
 </div>
 </details>
 
@@ -82,7 +82,7 @@ description: (부트캠프 CX 프로젝트) K-POP 팬들을 위한 덕질 어플
 <b>1차 액션 클러스터링 펼치기</b>
 </summary>
 <div markdown="1">
-![FirstActionClustering](../assets/img/team-project/LightMe-ActionClustering1.png)
+![FirstActionClustering](../assets/img/team_project/LightMe-ActionClustering1.png)
 </div>
 </details>
 
@@ -92,7 +92,7 @@ description: (부트캠프 CX 프로젝트) K-POP 팬들을 위한 덕질 어플
 <b>1차 액션 토픽 분석 펼치기</b>
 </summary>
 <div markdown="1">
-![FirstActionTopicAnalysis](../assets/img/team-project/LightMe-ActionTopic1.png)
+![FirstActionTopicAnalysis](../assets/img/team_project/LightMe-ActionTopic1.png)
 </div>
 </details>
 
@@ -102,7 +102,7 @@ description: (부트캠프 CX 프로젝트) K-POP 팬들을 위한 덕질 어플
 <b>2차 액션 클러스터링 펼치기</b>
 </summary>
 <div markdown="1">
-![SecondActionClustering](../assets/img/team-project/LightMe-ActionClustering2.png)
+![SecondActionClustering](../assets/img/team_project/LightMe-ActionClustering2.png)
 </div>
 </details>
 
@@ -112,7 +112,7 @@ description: (부트캠프 CX 프로젝트) K-POP 팬들을 위한 덕질 어플
 <b>2차 액션 토픽 분석 펼치기</b>
 </summary>
 <div markdown="1">
-![SecondActionTopicAnalysis](../assets/img/team-project/LightMe-ActionTopic2.png)
+![SecondActionTopicAnalysis](../assets/img/team_project/LightMe-ActionTopic2.png)
 </div>
 </details>
 
@@ -122,7 +122,7 @@ description: (부트캠프 CX 프로젝트) K-POP 팬들을 위한 덕질 어플
 <b>페르소나 도출 펼치기</b>
 </summary>
 <div markdown="1">
-![Persona](../assets/img/team-project/LightMe-Persona.png)
+![Persona](../assets/img/team_project/LightMe-Persona.png)
 </div>
 </details>
 
@@ -277,4 +277,7 @@ description: (부트캠프 CX 프로젝트) K-POP 팬들을 위한 덕질 어플
 <br>
 
 ## 9. 문제점 회고
-1. 크롤링의 데이터가 방대해서 클러스터링이 제대로 안되는 현상 발생
+### 1. 데이터 클러스터링 시 낮은 실루엣 지수 문제
+- 원인: 팬덤 문화 데이터를 클러스터링하는 과정에서 Okt 형태소 분석과 Doc2Vec을 사용한 계층 클러스터링, K-Means, DBSCAN 등 다양한 모델을 시도했으나 낮은 실루엣 지수가 나와 문제 발생.
+- 원인분석: 원인분석: 처음 시도한 Doc2Vec과 K-Means 조합에서 실루엣 지수가 0.2로 낮게 나왔고, TF-IDF와 PCA를 적용했을 때는 0.1로 더 떨어짐. 다양한 방법을 실험한 끝에 Okt + CounterVectorizer + LDA + 계층 클러스터링 조합에서 실루엣 지수가 0.5로 높아져 문제 해결의 실마리를 찾음.
+- 해결방안: 최종적으로 실루엣 지수가 가장 높았던 Okt + CounterVectorizer + LDA + 계층 클러스터링 방법을 채택하여 클러스터링 안정성을 확보함.
