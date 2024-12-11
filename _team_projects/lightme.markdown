@@ -82,7 +82,7 @@ description: (부트캠프 CX 프로젝트) K-POP 팬들을 위한 덕질 어플
 <b>1차 액션 클러스터링 펼치기</b>
 </summary>
 <div markdown="1">
-![FirstActionClustering](../assets/img/team_project/LightMe-ActionClustering1.png)
+![FirstActionClustering](../assets/img/team_project/LightMe-ActorClustering1.png)
 </div>
 </details>
 
@@ -92,7 +92,7 @@ description: (부트캠프 CX 프로젝트) K-POP 팬들을 위한 덕질 어플
 <b>1차 액션 토픽 분석 펼치기</b>
 </summary>
 <div markdown="1">
-![FirstActionTopicAnalysis](../assets/img/team_project/LightMe-ActionTopic1.png)
+![FirstActionTopicAnalysis](../assets/img/team_project/LightMe-ActorTopic1.png)
 </div>
 </details>
 
@@ -102,7 +102,7 @@ description: (부트캠프 CX 프로젝트) K-POP 팬들을 위한 덕질 어플
 <b>2차 액션 클러스터링 펼치기</b>
 </summary>
 <div markdown="1">
-![SecondActionClustering](../assets/img/team_project/LightMe-ActionClustering2.png)
+![SecondActionClustering](../assets/img/team_project/LightMe-ActorClustering2.png)
 </div>
 </details>
 
@@ -112,7 +112,7 @@ description: (부트캠프 CX 프로젝트) K-POP 팬들을 위한 덕질 어플
 <b>2차 액션 토픽 분석 펼치기</b>
 </summary>
 <div markdown="1">
-![SecondActionTopicAnalysis](../assets/img/team_project/LightMe-ActionTopic2.png)
+![SecondActionTopicAnalysis](../assets/img/team_project/LightMe-ActorTopic2.png)
 </div>
 </details>
 
