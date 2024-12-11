@@ -66,29 +66,21 @@ description: (교내 프로젝트) OCR 기술을 활용한 처방전 기반 자�
 <summary><b>핵심 기능 설명 펼치기</b></summary>
 <div markdown="1">
 
-## 5-1. Controller
-### - OCR 모델서버로 이미지 전송
-![sendImage](../assets/img/PillGood-SendImage.png)
-- Controller에서는 MultiPartFile로 이미지를 전달받고 OCR 모델서버로 이미지를 전송합니다. 그 후 전송된 이미지의 OCR 결과를 받고 정보를 추가하여 사용자에게 응답합니다.
-
-## 5-2. Service
-### - FCM 전송
+## 5-2. FCM 전송
 <video controls>
 	<source src = "../assets/wav/PillGood-Notification.mp4" type = "video/mp4">
 	동영상을 실행할 수 없습니다.
 </video>
 - 유저의 FCM 토큰을 통해 OCR이 완료됬다는 알림을 보냅니다.
 
-## 5-3. Repository
-### - 약 검색 동적쿼리
+## 5-3. 약 검색 동적쿼리
 <video controls>
 	<source src = "../assets/wav/PillGood-SearchingPill.mp4" type = "video/mp4">
 	동영상을 실행할 수 없습니다.
 </video>
 - DTO에 저장된 값이 빈값 또는 Null값인지 확인하여 Criteria Interface 구현체를 통해 동적쿼리를 생성하여 해당 특징의 약을 검색합니다.
 
-## 5-4. OCR
-### - 이미지 전처리
+## 5-4. 이미지 전처리 및 OCR
 <div style = "display: flex;">
 	<img src="../assets/img/team_project/PillGood-OriginalImage.png" style = "flex: 1; width: 50%; height: auto;">
 	<img src="../assets/img/team_project/PillGood-PreProcessImage.png" style = "flex: 1; width: 50%; height: auto;">
@@ -100,105 +92,8 @@ description: (교내 프로젝트) OCR 기술을 활용한 처방전 기반 자�
 
 <br>
 
-## 6. 서비스 아키텍쳐
+## 6. 시스템 아키텍쳐
 ![ServiceArchitecture](../assets/img/team_project/PillGood-ServiceArchitecture.png)
-
-<br>
-
-## 7. 코드 파트 및 구현 이유
-- <b> 데이터 서버: 그룹원, 약, 처방전, 복약, 복약 현황 기능 구현 </b>
-- <b> 그룹원: 그룹원 생성, 수정, 삭제 구현 </b>
-<details>
-<summary>
-<b>코드 펼치기</b>
-</summary>
-<div markdown="1">
-![GroupMemberFunction](../assets/img/PillGood-GroupMemberFunctionCode.png)
-</div>
-</details>
-
-<br>
-
-- <b> 약: 약이름을 통한 검색, 약특징을 통한 검색 구현 </b>
-<details>
-<summary>
-<b>코드 펼치기</b>
-</summary>
-<div markdown="1">
-![PillFunction](../assets/img/PillGood-PillFunctionCode.png)
-</div>
-</details>
-
-<br>
-
-- <b> 처방전: 처방전 등록, 수정, 삭제 구현 </b>
-<details>
-<summary>
-<b>코드 펼치기</b>
-</summary>
-<div markdown="1">
-![PrescriptionFunction](../assets/img/PillGood-PrescriptionFunctionCode.png)
-</div>
-</details>
-
-<br>
-
-- <b>복약: OCR 결과를 바탕으로 복약해야 할 약 검색 구현</b>
-<details>
-<summary>
-<b>코드 펼치기</b>
-</summary>
-<div markdown="1">
-![TakePillFunction](../assets/img/PillGood-TakePillFunctionCode.png)
-</div>
-</details>
-
-<br>
-	
-- <b>복약 현황: OCR 결과를 바탕으로 복약일정을 캘린더에 표시 및 설정한 시간이 되었을 때 알림 구현</b>
-<details>
-<summary>
-<b>코드 펼치기</b>
-</summary>
-<div markdown="1">
-![TakePillCheckFunction](../assets/img/PillGood-TakePillCheckFunctionCode.png)
-</div>
-</details>
-
-<br>
-
-- <b> 모델 서버: 이미지 전처리, OCR 기능 구현 </b>
-- <b> 이미지 전처리: GrayScale로 변환 후 밝기 조정, Image에 대한 Mopology 연산 및 텍스트 군집화로 이미지 resize 구현 </b>
-<details>
-<summary>
-<b>코드 펼치기</b>
-</summary>
-<div markdown="1">
-<div style = "display: flex;">
-<img src="../assets/img/team_project/PillGood-BlackBinary.png" style = "flex: 1; width: 50%; height: auto;">
-<img src="../assets/img/team_project/PillGood-WhiteBinary.png" style = "flex: 1; width: 50%; height: auto;">
-</div>
-
-<br>
-
-<div style = "display: flex;">
-<img src="../assets/img/team_project/PillGood-BrightnessCode.png" style = "flex: 1; width: 50%; height: auto;">
-<img src="../assets/img/team_project/PillGood-CroppedImage.png" style = "flex: 1; width: 50%; height: auto;">
-</div>
-</div>
-</details>
-
-<br>
-
-- <b> OCR: EasyOCR을 사용하여 OCR기능 구현 및 Regular Expression으로 필요한 기본데이터 처리 구현 </b>
-<details>
-<summary>
-<b>코드 펼치기</b>
-</summary>
-<div markdown="1">
-![PillFunction](../assets/img/PillGood-OCR.png)
-</div>
-</details>
 
 <br>
 
