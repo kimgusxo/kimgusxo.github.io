@@ -894,7 +894,6 @@ pre code {
 }
 .main-article .wrap-content, .page-article .wrap-content, .post .wrap-content {
   background-color: #fff;
-  width: 90%;
   padding: 1rem;
 }
 .main-article .title-article, .main-article .page-title, .main-article .post-title, .page-article .title-article, .page-article .page-title, .page-article .post-title, .post .title-article, .post .page-title, .post .post-title {
