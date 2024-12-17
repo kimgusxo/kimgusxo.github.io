@@ -13,7 +13,11 @@ description: (부트캠프 DX 프로젝트) 잠재 고객을 잡기위한 가전
 <br>
 
 ## 1. 깃허브 링크
-- []
+- [LgStation-Admin-FrontEnd](){: target="_blank"}
+- [LgStation-Admin-BackEnd](){: target="_blank"}
+- [LgStation-Kiosk-FrontEnd](){: target="_blank"}
+- [LgStation-Kiosk-BackEnd](){: target="_blank"}
+- [LgStation-Application](){: target="_blank"}
 
 <br>
 
@@ -65,4 +69,39 @@ description: (부트캠프 DX 프로젝트) 잠재 고객을 잡기위한 가전
 - Firestore
 
 <br>
+
+## 4. 데이터 분석
+데이터 분석 과정은 
+
+## 4-1. 크롤링
+
+## 4-2. 클러스터링
+
+## 4-3. 토픽 분석 및 기회영역 분석
+
+## 4-3. 페르소나 도출
+
+<br>
+
+## 5-1. ERD 다이어그램
+
+## 5-2. FireStore 컬렉션 구조
+
+## 5-3. Redis 키-값 쌍 구조
+
+<br>
+
+## 6. 서비스 흐름도
+
+<br>
+
+## 7. 시스템 아키텍쳐
+
+<br>
+
+## 8. 핵심 기능
+
+<br>
+
+## 9. 문제점 회고
 
