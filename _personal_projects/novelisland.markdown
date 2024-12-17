@@ -201,91 +201,18 @@ description: (엘라스틱서치와 배포 공부용) 문장형 소설 검색 �
 </div>
 </details>
 
-## 5-9. 웹소설 데이터 크롤링
-
-<details>
-
-<summary>
-  <b>데이터 크롤링 보기</b>
-</summary>
-
-<div markdown="1">
-
-
-
-</div>
-</details>
-
 </div>
 </details>
 
 <br>
 
-## 6. 배치 다이어그램
+## 6. 시스템 아키텍쳐
 ![BatchDiagram](../assets/img/personal_project/NovelIsland-BatchDiagram.png)
 
-<br>
-
-## 7. 스프링 사용 기술 코드
-- 백엔드 서버: Spring Test, Spring Batch, Spring Security
-- Spring Test(Controller, Service, Repository 단위 테스트)
-  <details>
-
-  <summary>
-  <b>코드 펼치기</b>
-  </summary>
-
-  <div markdown="1">
-
-
-
-  </div>
-  </details>
-- Spring Test(통합 테스트)
-  <details>
-
-  <summary>
-    <b>코드 펼치기</b>
-  </summary>
-
-  <div markdown="1">
-
-
-
-  </div>
-  </details>
-
-- Spring Batch
-  <details>
-
-  <summary>
-    <b>코드 펼치기</b>
-  </summary>
-
-  <div markdown="1">
-
-
-
-  </div>
-  </details>
-
-- Spring Security
-  <details>
-
-  <summary>
-    <b>코드 펼치기</b>
-  </summary>
-
-  <div markdown="1">
-
-
-
-  </div>
-  </details>
 
 <br>
 
-## 8. 문제점 회고
+## 7. 문제점 회고
 ### 1. Service Layer 단위 테스트 시 의존성 제거 문제점
 - 원인: Service 계층의 단위 테스트를 작성하는데 Controller와 Repository와의 의존을 제거해 Layer의 단위 테스트가 가능하다고 판단하였다.
 

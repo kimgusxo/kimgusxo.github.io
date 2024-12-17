@@ -13,11 +13,11 @@ description: (부트캠프 DX 프로젝트) 잠재 고객을 잡기위한 가전
 <br>
 
 ## 1. 깃허브 링크
-- [LgStation-Admin-FrontEnd](){: target="_blank"}
-- [LgStation-Admin-BackEnd](){: target="_blank"}
-- [LgStation-Kiosk-FrontEnd](){: target="_blank"}
-- [LgStation-Kiosk-BackEnd](){: target="_blank"}
-- [LgStation-Application](){: target="_blank"}
+- [LgStation-Admin-FrontEnd](https://github.com/kimgusxo/dx_admin_dashboard_front){: target="_blank"}
+- [LgStation-Admin-BackEnd](https://github.com/kimgusxo/DX_AdminDashBoard){: target="_blank"}
+- [LgStation-Kiosk-FrontEnd](https://github.com/kimgusxo/dx_lg_life_station_app_webview){: target="_blank"}
+- [LgStation-Kiosk-BackEnd](https://github.com/kimgusxo/DX_Kiosk){: target="_blank"}
+- [LgStation-Application](https://github.com/kimgusxo/DX_Customer_App){: target="_blank"}
 
 <br>
 

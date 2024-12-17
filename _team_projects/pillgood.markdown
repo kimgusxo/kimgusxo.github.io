@@ -66,21 +66,21 @@ description: (교내 프로젝트) OCR 기술을 활용한 처방전 기반 자�
 <summary><b>핵심 기능 설명 펼치기</b></summary>
 <div markdown="1">
 
-## 5-2. FCM 전송
+## 5-1. FCM 전송
 <video controls>
 	<source src = "../assets/wav/PillGood-Notification.mp4" type = "video/mp4">
 	동영상을 실행할 수 없습니다.
 </video>
 - 유저의 FCM 토큰을 통해 OCR이 완료됬다는 알림을 보냅니다.
 
-## 5-3. 약 검색 동적쿼리
+## 5-2. 약 검색 동적쿼리
 <video controls>
 	<source src = "../assets/wav/PillGood-SearchingPill.mp4" type = "video/mp4">
 	동영상을 실행할 수 없습니다.
 </video>
 - DTO에 저장된 값이 빈값 또는 Null값인지 확인하여 Criteria Interface 구현체를 통해 동적쿼리를 생성하여 해당 특징의 약을 검색합니다.
 
-## 5-4. 이미지 전처리 및 OCR
+## 5-3. 이미지 전처리 및 OCR
 <div style = "display: flex;">
 	<img src="../assets/img/team_project/PillGood-OriginalImage.png" style = "flex: 1; width: 50%; height: auto;">
 	<img src="../assets/img/team_project/PillGood-PreProcessImage.png" style = "flex: 1; width: 50%; height: auto;">
@@ -97,7 +97,7 @@ description: (교내 프로젝트) OCR 기술을 활용한 처방전 기반 자�
 
 <br>
 
-## 8. 문제점 회고
+## 7. 문제점 회고
 ### 1. 데이터 직렬화의 순환참조 문제
 - 원인: JPA에서 양방향으로 연결된 Entity를 JSON으로 직렬화하는 과정에서 계속해서 참조하여 StackOverFlowError를 발생시키는 현상이다.
 
