@@ -71,37 +71,112 @@ description: (부트캠프 DX 프로젝트) 잠재 고객을 잡기위한 가전
 <br>
 
 ## 4. 데이터 분석
-데이터 분석 과정은 
+데이터 분석 과정은 20~30대는 1인 가구로 이루어져있어 "자취"라는 키워드에 여러 키워드를 붙여서 자취생활의 특징과 페인포인트를 잡아내고 클러스터링을 통해 특정 행동군에 집중하여 페르소나 도출
+
+<details>
+<summary><b>데이터 분석 과정 설명 펼치기</b></summary>
+<div markdown="1">
 
 ## 4-1. 크롤링
+<details>
+<summary>
+<b>크롤링 상세 보기</b>
+</summary>
+<div markdown="1">
+![Crawling]()
+</div>
+</details>
 
 ## 4-2. 클러스터링
+<details>
+<summary>
+<b>클러스터링 상세 보기</b>
+</summary>
+<div markdown="1">
+![Clustering]()
+</div>
+</details>
 
 ## 4-3. 토픽 분석 및 기회영역 분석
+<details>
+<summary>
+<b>토픽 분석 및 기회영역 분석 상세보기</b>
+</summary>
+<div markdown="1">
+![TopicAnalysis]()
+![Opportunity]()
+</div>
+</details>
 
 ## 4-3. 페르소나 도출
+<details>
+<summary>
+<b>페르소나 상세 보기</b>
+</summary>
+<div markdown="1">
+![Persona]()
+</div>
+</details>
+
+</div>
+</details>
 
 <br>
 
 ## 5-1. ERD 다이어그램
+![ERD]()
 
 ## 5-2. FireStore 컬렉션 구조
+![FireStore]()
 
 ## 5-3. Redis 키-값 쌍 구조
+![Redis]()
 
 <br>
 
 ## 6. 서비스 흐름도
+![ServiceFlow]()
 
 <br>
 
 ## 7. 시스템 아키텍쳐
+![SystemArchitecher]()
 
 <br>
 
-## 8. 핵심 기능
+## 8-1. 관리자 대시보드 핵심 기능
+
+<details>
+<summary><b>관리자 대시보드 기능 펼치기</b></summary>
+<div markdown="1">
+
+</div>
+</details>
+
+<br>
+
+## 8-2. 웹 결제 시스템 핵심 기능
+
+<details>
+<summary><b>웹 결제 시스템 기능 펼치기</b></summary>
+<div markdown="1">
+
+</div>
+</details>
+
+<br>
+
+## 8-3. 고객 어플리케이션 핵심 기능
+
+<details>
+<summary><b>고객 어플리케이션 기능 펼치기</b></summary>
+<div markdown="1">
+
+</div>
+</details>
 
 <br>
 
 ## 9. 문제점 회고
+### 1.
 
