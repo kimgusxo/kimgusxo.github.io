@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "NovelIsland"
+title: "NovelIsland"
 permalink: /novelisland/
 img: personal_project/NovelIsland-thumbNail.png
 date: 2023-12-06 00:00:00 +0900

@@ -8,12 +8,12 @@ permalink: /algorithm/
 <p>여기는 코딩 테스트 준비를 위해 알고리즘 문제 풀이 목록을 모아둔 곳입니다.</p>
 
 <ul>
-{% for post in site.posts %}
-  {% if post.categories contains "algorithm" %}
-    <li>
-      <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      <span style="font-size:0.8rem; color: #999;"> ({{ post.date | date: "%Y-%m-%d" }})</span>
-    </li>
-  {% endif %}
+{% for algo in site.algorithms %}
+  <li>
+    <a href="{{ algo.url | prepend: site.baseurl }}">{{ algo.title }}</a>
+    {% if algo.date %}
+    <span style="font-size:0.8rem; color: #999;"> ({{ algo.date | date: "%Y-%m-%d" }})</span>
+    {% endif %}
+  </li>
 {% endfor %}
 </ul>

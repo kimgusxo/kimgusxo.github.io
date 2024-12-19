@@ -41,3 +41,5 @@ collections:
     output: true
   personal_projects:
     output: true
+  algorithms:
+    output: true
