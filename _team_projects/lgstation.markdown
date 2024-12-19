@@ -154,19 +154,19 @@ description: (부트캠프 DX 프로젝트) 잠재 고객을 잡기위한 가전
 ![DashBoard-Main]()
 
 ## 8-2. 밀키트 페이지
-![DashBoard-MealKit]()
+![DashBoard-MealKit](../assets/img/team_project/LG_LifeStation-MealKit.png)
 
-## 8-3. 고객 페이지
-![DashBoard-Customer]()
+## 8-3. 세탁용품 페이지
+![DashBoard-Laundry](../assets/img/team_project/LG_LifeStation-Laundry.png)
 
-## 8-4. 가전 페이지
-![DashBoard-HomeAppliance]()
+## 8-4. 고객 페이지
+![DashBoard-Customer](../assets/img/team_project/LG_LifeStation-Customer.png)
 
-## 8-5. 주문 페이지
-![DashBoard-Order]()
+## 8-5. 가전 페이지
+![DashBoard-HomeAppliance](../assets/img/team_project/LG_LifeStation-Appliance.png)
 
 ## 8-6. 재고 페이지
-![DashBoard-Count]()
+![DashBoard-Count](../assets/img/team_project/LG_LifeStation-Count.png)
 
 </div>
 </details>
