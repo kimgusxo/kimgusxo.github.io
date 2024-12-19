@@ -13,5 +13,6 @@ description: (데이터 시각화와 집계 함수 공부용) 로또 데이터 �
 <br>
 
 ## 1. 깃허브 링크
-- [Lotto-FrontEnd](https://github.com/kimgusxo/NovelIsland-FrontEnd){: target="_blank"}
-- [Lotto-BackEnd](https://github.com/kimgusxo/NovelIsland-BackEnd){: target="_blank"}
+- [Lotto-FrontEnd](https://github.com/kimgusxo/Lotto-FrontEnd){: target="_blank"}
+- [Lotto-BackEnd](https://github.com/kimgusxo/Lotto-BackEnd){: target="_blank"}
+
