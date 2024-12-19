@@ -3,3 +3,17 @@ layout: post
 title: "Algorithm"
 permalink: /algorithm/
 ---
+
+<h1>Algorithm Problems</h1>
+<p>여기는 코딩 테스트 준비를 위해 알고리즘 문제 풀이 목록을 모아둔 곳입니다.</p>
+
+<ul>
+{% for post in site.posts %}
+  {% if post.categories contains "algorithm" %}
+    <li>
+      <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      <span style="font-size:0.8rem; color: #999;"> ({{ post.date | date: "%Y-%m-%d" }})</span>
+    </li>
+  {% endif %}
+{% endfor %}
+</ul>

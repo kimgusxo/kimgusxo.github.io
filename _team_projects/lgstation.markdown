@@ -150,9 +150,23 @@ description: (부트캠프 DX 프로젝트) 잠재 고객을 잡기위한 가전
 <summary><b>관리자 대시보드 기능 펼치기</b></summary>
 <div markdown="1">
 
-## 8-1. 메인 화면
+## 8-1. 메인 페이지
+![DashBoard-Main]()
 
-## 8-2. 
+## 8-2. 밀키트 페이지
+![DashBoard-MealKit]()
+
+## 8-3. 고객 페이지
+![DashBoard-Customer]()
+
+## 8-4. 가전 페이지
+![DashBoard-HomeAppliance]()
+
+## 8-5. 주문 페이지
+![DashBoard-Order]()
+
+## 8-6. 재고 페이지
+![DashBoard-Count]()
 
 </div>
 </details>
@@ -165,11 +179,14 @@ description: (부트캠프 DX 프로젝트) 잠재 고객을 잡기위한 가전
 <summary><b>웹 결제 시스템 기능 펼치기</b></summary>
 <div markdown="1">
 
-## 9-1. 상품 화면
+## 9-1. 상품 페이지
+![Kiosk-Product]()
 
-## 9-2. 장바구니 화면
+## 9-2. 장바구니 페이지
+![Kiosk-ShopCart]()
 
-## 9-3. 구매 화면
+## 9-3. 구매 페이지
+![Kiosk-Purchase]()
 
 </div>
 </details>
@@ -183,16 +200,25 @@ description: (부트캠프 DX 프로젝트) 잠재 고객을 잡기위한 가전
 <div markdown="1">
 
 ## 10-1. 로그인 화면
+![App-Login]()
 
 ## 10-2. 카카오톡 로그인 화면
+![App-KakaoLogin]()
+
+## 10-3. 회원가입 화면
+![App-SignUp]()
 
 ## 10-3. 메인 화면
+![App-Main]()
 
 ## 10-4. 지도 화면
+![App-Map]()
 
 ## 10-5. 안내 화면
+![App-Info]()
 
 ## 10-6. 내 정보 화면
+![App-MyInfo]()
 
 </div>
 </details>
