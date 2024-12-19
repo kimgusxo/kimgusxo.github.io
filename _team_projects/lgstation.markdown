@@ -3,7 +3,7 @@ layout: post
 title: "LG Station"
 permalink: /lgstation/
 img: team_project/LG_LifeStation-thumbNail.png
-date: 2024-08-30 00:00:00 +0900
+date: 2024-12-05 00:00:00 +0900
 description: (부트캠프 DX 프로젝트) 잠재 고객을 잡기위한 가전 체험 공간 솔루션
 ---
 
@@ -140,43 +140,65 @@ description: (부트캠프 DX 프로젝트) 잠재 고객을 잡기위한 가전
 <br>
 
 ## 7. 시스템 아키텍쳐
-![SystemArchitectuer](../assets/img/team_project/LG_LifeStation-SystemArchitectuer.png)
+![SystemArchitectuer](../assets/img/team_project/LG_LifeStation-SystemArchitecture.png)
 
 <br>
 
-## 8-1. 관리자 대시보드 핵심 기능
+## 8. 관리자 대시보드 핵심 기능
 
 <details>
 <summary><b>관리자 대시보드 기능 펼치기</b></summary>
 <div markdown="1">
 
+## 8-1. 메인 화면
+
+## 8-2. 
+
 </div>
 </details>
 
 <br>
 
-## 8-2. 웹 결제 시스템 핵심 기능
+## 9. 웹 결제 시스템 핵심 기능
 
 <details>
 <summary><b>웹 결제 시스템 기능 펼치기</b></summary>
 <div markdown="1">
 
+## 9-1. 상품 화면
+
+## 9-2. 장바구니 화면
+
+## 9-3. 구매 화면
+
 </div>
 </details>
 
 <br>
 
-## 8-3. 고객 어플리케이션 핵심 기능
+## 10. 고객 어플리케이션 핵심 기능
 
 <details>
 <summary><b>고객 어플리케이션 기능 펼치기</b></summary>
 <div markdown="1">
 
+## 10-1. 로그인 화면
+
+## 10-2. 카카오톡 로그인 화면
+
+## 10-3. 메인 화면
+
+## 10-4. 지도 화면
+
+## 10-5. 안내 화면
+
+## 10-6. 내 정보 화면
+
 </div>
 </details>
 
 <br>
 
-## 9. 문제점 회고
+## 11. 문제점 회고
 ### 1. 
 
