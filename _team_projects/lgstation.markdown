@@ -2,13 +2,13 @@
 layout: post
 title: "LG Station"
 permalink: /lgstation/
-img: team_project/LgStation-thumbNail.png
+img: team_project/LG_LifeStation-thumbNail.png
 date: 2024-08-30 00:00:00 +0900
 description: (부트캠프 DX 프로젝트) 잠재 고객을 잡기위한 가전 체험 공간 솔루션
 ---
 
 # :pushpin: LG Station
-> 잠재 고객 확보를 위한 LG 가전 체험 공간 솔루션
+> 잠재 고객 확보를 위한 LG 가전 체험 공간 솔루션입니다. 편의점 관리를 위한 대시보드, 서비스 이용을 위한 결제 시스템, 고객 편의를 위한 어플리케이션으로 이루어져 있습니다.
 
 <br>
 
@@ -83,7 +83,7 @@ description: (부트캠프 DX 프로젝트) 잠재 고객을 잡기위한 가전
 <b>크롤링 상세 보기</b>
 </summary>
 <div markdown="1">
-![Crawling]()
+![Crawling](../assets/img/team_project/LG_LifeStation-Crawling.png)
 </div>
 </details>
 
@@ -93,7 +93,7 @@ description: (부트캠프 DX 프로젝트) 잠재 고객을 잡기위한 가전
 <b>클러스터링 상세 보기</b>
 </summary>
 <div markdown="1">
-![Clustering]()
+![Clustering](../assets/img/team_project/LG_LifeStation-Clustering.png)
 </div>
 </details>
 
@@ -103,8 +103,8 @@ description: (부트캠프 DX 프로젝트) 잠재 고객을 잡기위한 가전
 <b>토픽 분석 및 기회영역 분석 상세보기</b>
 </summary>
 <div markdown="1">
-![TopicAnalysis]()
-![Opportunity]()
+![ActorClustering](../assets/img/team_project/LG_LifeStation-ActorClustering.png)
+![Opportunity](../assets/img/team_project/LG_LifeStation-Opportunity.png)
 </div>
 </details>
 
@@ -114,7 +114,7 @@ description: (부트캠프 DX 프로젝트) 잠재 고객을 잡기위한 가전
 <b>페르소나 상세 보기</b>
 </summary>
 <div markdown="1">
-![Persona]()
+![Persona](../assets/img/team_project/LG_LifeStation-Persona.png)
 </div>
 </details>
 
@@ -124,23 +124,23 @@ description: (부트캠프 DX 프로젝트) 잠재 고객을 잡기위한 가전
 <br>
 
 ## 5-1. ERD 다이어그램
-![ERD]()
+![ERD](../assets/img/team_project/LG_LifeStation-ERD.png)
 
 ## 5-2. FireStore 컬렉션 구조
-![FireStore]()
+![FireStore](../assets/img/team_project/LG_LifeStation-FireStore.png)
 
 ## 5-3. Redis 키-값 쌍 구조
-![Redis]()
+![Redis](../assets/img/team_project/LG_LifeStation-Redis.png)
 
 <br>
 
 ## 6. 서비스 흐름도
-![ServiceFlow]()
+![ServiceFlow](../assets/img/team_project/LG_LifeStation-ServiceFlow.png)
 
 <br>
 
 ## 7. 시스템 아키텍쳐
-![SystemArchitecher]()
+![SystemArchitectuer](../assets/img/team_project/LG_LifeStation-SystemArchitectuer.png)
 
 <br>
 
