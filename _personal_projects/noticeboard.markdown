@@ -14,3 +14,34 @@ description: (반응형 프로그래밍 공부용) 게시판 사이트
 
 ## 1. 깃허브 링크
 - [NoticeBoard](https://github.com/kimgusxo/NoticeBoard){: target="_blank"}
+
+<br>
+
+## 2. 제작 기간 & 참여 인원
+- 2024년 2월 1일 ~ 2023년 4월 30일
+- 개인프로젝트
+- Front-End & Back-End
+  - 김현태(금오공과대학교)
+
+<br>
+
+## 3-1. Front-End 기술 스택
+- JavaScript
+- HTML
+- CSS
+- JSP
+
+## 3-2. Back-End 기술 스택
+- Java 17
+- Spring Boot
+- Spring Data R2DBC
+- Spring Webflux
+- PostgreSQL 15
+- Gradle
+
+<br>
+
+## 4. ERD 다이어그램
+![ERD Diagram]()
+
+<br>
