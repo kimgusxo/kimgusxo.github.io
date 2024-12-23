@@ -136,9 +136,9 @@ description: (부트캠프 DX 프로젝트) 잠재 고객을 잡기위한 가전
 
 ## 6. 서비스 흐름도
 ### 6-1. 관리자 대시보드 흐름도
-![ServiceFlow1](../assets/img/team_project/LG_LifeStation-ServiceFlow.png)
+![ServiceFlow1](../assets/img/team_project/LG_LifeStation-ServiceFlow1.png)
 ### 6-2. 고객 어플리케이션 흐름도
-![ServiceFlow2](../assets/img/team_project/LG_LifeStation-ServiceFlow.png)
+![ServiceFlow2](../assets/img/team_project/LG_LifeStation-ServiceFlow2.png)
 
 <br>
 
@@ -154,7 +154,7 @@ description: (부트캠프 DX 프로젝트) 잠재 고객을 잡기위한 가전
 <div markdown="1">
 
 ## 8-1. 메인 페이지
-![DashBoard-Main]()
+![DashBoard-Main](../assets/img/team_project/LG_LifeStation-DashBoardMain.png)
 
 ## 8-2. 밀키트 페이지
 ![DashBoard-MealKit](../assets/img/team_project/LG_LifeStation-MealKit.png)
@@ -182,14 +182,20 @@ description: (부트캠프 DX 프로젝트) 잠재 고객을 잡기위한 가전
 <summary><b>웹 결제 시스템 기능 펼치기</b></summary>
 <div markdown="1">
 
-## 9-1. 상품 페이지
+## 9-1. 이용권 페이지
+![Kiosk-Ticket](../assets/img/team_project/LG_LifeStation-Ticket.png)
+
+## 9-2 상품 페이지
 ![Kiosk-Product](../assets/img/team_project/LG_LifeStation-Product.png)
 
-## 9-2. 장바구니 페이지
+## 9-2 담기 페이지
+![Kiosk-ProductCount](../assets/img/team_project/LG_LifeStation-ProductCount.png)
+
+## 9-3. 장바구니 페이지
 ![Kiosk-ShopCart](../assets/img/team_project/LG_LifeStation-ShopCart.png)
 
-## 9-3. 구매 페이지
-![Kiosk-Purchase](../assets/img/team_project/LG_LifeStation-Purchase.png)
+## 9-4. 결제완료 페이지
+![Kiosk-Complete](../assets/img/team_project/LG_LifeStation-Complete.png)
 
 </div>
 </details>
@@ -208,11 +214,8 @@ description: (부트캠프 DX 프로젝트) 잠재 고객을 잡기위한 가전
 ## 10-2. 카카오톡 로그인 화면
 ![App-KakaoLogin](../assets/img/team_project/LG_LifeStation-KakaoLogin.png)
 
-## 10-3. 회원가입 화면
-![App-SignUp](../assets/img/team_project/LG_LifeStation-SignUp.png)
-
 ## 10-3. 메인 화면
-![App-Main](../assets/img/team_project/LG_LifeStation-Main.png)
+![App-Main](../assets/img/team_project/LG_LifeStation-AppMain.png)
 
 ## 10-4. 지도 화면
 ![App-Map](../assets/img/team_project/LG_LifeStation-Map.png)
