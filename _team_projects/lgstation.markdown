@@ -123,13 +123,14 @@ description: (부트캠프 DX 프로젝트) 잠재 고객을 잡기위한 가전
 
 <br>
 
-## 5-1. ERD 다이어그램
+## 5. 데이터베이스
+### 5-1. ERD 다이어그램
 ![ERD](../assets/img/team_project/LG_LifeStation-ERD.png)
 
-## 5-2. FireStore 컬렉션 구조
+### 5-2. FireStore 컬렉션 구조
 ![FireStore](../assets/img/team_project/LG_LifeStation-FireStore.png)
 
-## 5-3. Redis 키-값 쌍 구조
+### 5-3. Redis 키-값 쌍 구조
 ![Redis](../assets/img/team_project/LG_LifeStation-Redis.png)
 
 <br>
@@ -137,7 +138,7 @@ description: (부트캠프 DX 프로젝트) 잠재 고객을 잡기위한 가전
 ## 6. 서비스 흐름도
 ### 6-1. 관리자 대시보드 흐름도
 ![ServiceFlow1](../assets/img/team_project/LG_LifeStation-ServiceFlow1.png)
-### 6-2. 고객 어플리케이션 흐름도
+### 6-2. 고객 어플리케이션 & 웹 결제 시스템 흐름도
 ![ServiceFlow2](../assets/img/team_project/LG_LifeStation-ServiceFlow2.png)
 
 <br>
@@ -232,5 +233,17 @@ description: (부트캠프 DX 프로젝트) 잠재 고객을 잡기위한 가전
 <br>
 
 ## 11. 문제점 회고
-### 1. 
+### 1. 실시간 동기화 문제
+- 원인: Kiosk, 대시보드, 앱 등 여러 서비스에서 동일 데이터를 실시간으로 갱신해야 함.
+- 원인분석: MQ(Kafka 등)도 고려했지만, Firestore가 클라이언트 연동과 실시간 이벤트 처리에 간단해 빠른 구현이 가능했음.
+- 해결방안: Firestore 실시간 리스너와 낙관적 락(버전 필드) 적용으로 동시성 충돌을 최소화함.
 
+### 2. 문제 2. Flutter 상태 관리
+- 원인: Flutter 앱에서 WebView와 데이터를 주고받아야 하고, 이 과정에서 여러 화면이 동일한 정보를 공유해야 함.
+- 원인분석: WebView 호출과 비동기 API 연동이 얽혀 단순 setState 방식으론 중복 상태가 많아지고, 화면 간 데이터 불일치가 빈번히 발생함.
+- 해결방안: Provider 패턴을 도입해 전역 상태와 WebView 연동 로직을 일원화하고, 비동기 처리 결과도 자동으로 UI에 반영되도록 구조화함.
+
+### 3. 재고 관리 문제
+- 원인: 매일 0시에 재고를 일괄 갱신해야 하며, 수작업으로는 누락이나 지연이 빈번하게 발생함.
+- 원인분석: 재고가 여러 서비스에서 동시 조회·수정되다 보니 시점별 재고 불일치 위험이 높았음.
+- 해결방안: Spring Scheduler로 자정마다 자동 갱신하고, Firestore 트랜잭션 처리를 통해 일관성을 확보.
