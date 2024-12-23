@@ -3,21 +3,6 @@ layout: post
 title: "Main"
 ---
 
-<section class="tree-vision white-background">
-  <h2><strong style="color: #15F3A8">나무</strong> 같은 개발자가 되고 싶습니다</h2>
-  <div class="vision-content">
-    <img src="assets/img/home/Tree.png" alt="Tree" class="tree-image">
-    <p>
-      <strong style="color: #15F3A8">나무</strong>처럼 깊이 뿌리 내리고, 꾸준히 성장하며, 시간이 지나도 변치 않는 가치를 제공하는 개발자가 되고 싶습니다.
-      어떤 어려움이 닥치더라도 흔들리지 않고, 단단한 <strong style="color: #15F3A8">뿌리</strong>와 같이 기본에 충실한 개발을 하고 싶습니다.
-      또한, <strong style="color: #15F3A8">나무</strong>가 자라며 많은 <strong style="color: #15F3A8">열매</strong>를 맺듯이, 저도 다양한 경험을 통해 더 나은 개발자로서 성장해 나가고자 합니다.
-    </p>
-    <p>
-      팀과 프로젝트가 나아갈 방향을 견고하게 지원하고, 오래도록 지속 가능한 시스템을 개발하는 것이 저의 목표입니다.
-    </p>
-  </div>
-</section>
-
 <!-- 사용 언어 섹션 -->
 <section class="skills-section white-background">
   <h2>사용 언어</h2>
@@ -41,49 +26,65 @@ title: "Main"
   </div>
 </section>
 
-<!-- 사용 프레임워크 및 데이터베이스 섹션 -->
+<!-- 사용 프레임워크 섹션 -->
 <section class="skills-section white-background">
-  <h2>사용 프레임워크 및 데이터베이스</h2>
+  <h2>사용 프레임워크</h2>
   <div class="skills-grid">
     <div class="skill-box">
-      <img src="assets/img/home/SpringBoot.png" alt="Spring Framework" class="skill-image">
-      <p>Spring Framework</p>
+      <img src="assets/img/home/SpringBoot.png" alt="Spring Boot" class="skill-image">
+      <p>Spring Boot</p>
     </div>
     <div class="skill-box">
       <img src="assets/img/home/VueJs.png" alt="Vue.js" class="skill-image">
       <p>Vue.js</p>
     </div>
     <div class="skill-box">
-    <img src="assets/img/home/PostgreSQL.png" alt="PostgreSQL" class="skill-image">
+      <img src="assets/img/home/Flask.png" alt="Flask" class="skill-image">
+      <p>Flask</p>
+    </div>
+  </div>
+</section>
+
+<!-- 사용 데이터베이스 섹션 -->
+<section class="skills-section white-background">
+  <h2>사용 데이터베이스</h2>
+  <div class="skills-grid">
+    <div class="skill-box">
+      <img src="assets/img/home/PostgreSQL.png" alt="PostgreSQL" class="skill-image">
       <p>PostgreSQL</p>
     </div>
     <div class="skill-box">
       <img src="assets/img/home/MySQL.png" alt="MySQL" class="skill-image">
       <p>MySQL</p>
     </div>
+    <div class="skill-box">
+      <img src="assets/img/home/MongoDB.png" alt="MongoDB" class="skill-image">
+      <p>MongoDB</p>
+    </div>
+  </div>
+</section>
+
+<!-- 사용 협업 툴 섹션 -->
+<section class="skills-section white-background">
+  <h2>사용 협업 툴</h2>
+  <div class="skills-grid">
+    <div class="skill-box">
+      <img src="assets/img/home/Figma.png" alt="Figma" class="skill-image">
+      <p>Figma</p>
+    </div>
+    <div class="skill-box">
+      <img src="assets/img/home/Notion.png" alt="Notion" class="skill-image">
+      <p>Notion</p>
+    </div>
+    <div class="skill-box">
+      <img src="assets/img/home/Git.png" alt="Git" class="skill-image">
+      <p>Git</p>
+    </div>
   </div>
 </section>
 
 <style>
-  .tree-vision {
-    text-align: center;
-    padding: 40px;
-  }
-
-  .vision-content {
-    max-width: 800px;
-    margin: 0 auto;
-    font-size: 18px;
-    line-height: 1.6;
-  }
-
-  .tree-image {
-    width: 300px; /* 나무 이미지 크기 */
-    height: auto;
-    margin-bottom: 20px;
-    border-radius: 10px;
-  }
-
+  /* 공통 스타일 */
   .white-background {
     background-color: #ffffff;
     padding: 40px;
@@ -91,31 +92,28 @@ title: "Main"
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
 
-  .white-background {
-    background-color: #ffffff; /* 흰 배경 추가 */
-    padding: 40px; /* 섹션 내부 여백 추가 */
-    border-radius: 10px; /* 모서리를 둥글게 만듦 (선택 사항) */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 약간의 그림자 효과 */
-  }
-
+  /* 섹션 간 간격 */
   .skills-section {
     margin: 40px 0;
   }
 
+  /* 그리드 스타일 */
   .skills-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* 그리드 레이아웃을 가로로 배치 */
-    gap: 20px; /* 아이템 사이의 간격 */
-    justify-items: center; /* 그리드 아이템을 가운데 정렬 */
-    align-items: center; /* 그리드 아이템을 수직으로 가운데 정렬 */
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
   }
 
+  /* 각 스킬 박스 스타일 */
   .skill-box {
     text-align: center;
   }
 
+  /* 스킬 이미지 스타일 */
   .skill-image {
-    width: 400px; /* 이미지 크기를 400px로 조정 */
+    width: 200px; /* 필요에 따라 크기 조절 */
     height: auto;
     margin-bottom: 10px;
   }
