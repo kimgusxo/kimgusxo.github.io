@@ -51,6 +51,12 @@ description: (데이터 시각화와 집계 함수 공부용) 로또 데이터 �
 <br>
 
 ## 5. 핵심 기능
+<details>
+<summary><b>핵심 기능 설명 펼치기</b></summary>
+<div markdown="1">
+
+</div>
+</details>
 
 <br>
 
@@ -59,3 +65,9 @@ description: (데이터 시각화와 집계 함수 공부용) 로또 데이터 �
 <br>
 
 ## 7. 문제점 회고
+### 1.
+- 원인:
+
+- 원인분석: 
+
+- 해결방안:
