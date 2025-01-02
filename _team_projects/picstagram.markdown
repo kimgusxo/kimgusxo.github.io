@@ -59,19 +59,19 @@ description: (교내프로젝트) 실시간 여행 공유 SNS 어플리케이션
 <div markdown="1">
 
 ## 5-1. 메인 화면
-![]()
+![MainPage]()
 
 ## 5.2. 지도 화면
-![]()
+![MapPage]()
 
 ## 5.3. 상세 게시물 화면
-![]()
+![PostPage]()
 
 ## 5.4. 프로필 화면
-![]()
+![ProfilePage]()
 
 ## 5.5. 팔로우/팔로잉
-![]()
+![FollowPage]()
 
 </div>
 </details>
@@ -79,9 +79,9 @@ description: (교내프로젝트) 실시간 여행 공유 SNS 어플리케이션
 <br>
 
 ## 6. 시스템 아키텍쳐
-![]
+![SystemArchitecture]()
 
 <br>
 
 ## 7. 문제점 회고
-- None
+- 

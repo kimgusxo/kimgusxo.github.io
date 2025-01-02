@@ -47,7 +47,7 @@ description: (국립 중앙도서관 아이디어 공모전) 도서 훼손 판�
 <br>
 
 ## 5. Document 구조
-![Document]()
+![Document](../assets/img/team_project/LibraryCompetition-Document.png)
 
 <br>
 
@@ -71,7 +71,7 @@ description: (국립 중앙도서관 아이디어 공모전) 도서 훼손 판�
 
 <div markdown="1">
 
-![]()
+![BookSearchPage]()
 
 </div>
 </details>
@@ -85,7 +85,7 @@ description: (국립 중앙도서관 아이디어 공모전) 도서 훼손 판�
 
 <div markdown="1">
 
-![]()
+![UserSearchPage]()
 
 </div>
 </details>
@@ -99,7 +99,7 @@ description: (국립 중앙도서관 아이디어 공모전) 도서 훼손 판�
 
 <div markdown="1">
 
-![]()
+![BookDetailPage]()
 
 </div>
 </details>
@@ -113,7 +113,7 @@ description: (국립 중앙도서관 아이디어 공모전) 도서 훼손 판�
 
 <div markdown="1">
 
-![]()
+![UserDetailPage]()
 
 </div>
 </details>
@@ -127,7 +127,7 @@ description: (국립 중앙도서관 아이디어 공모전) 도서 훼손 판�
 
 <div markdown="1">
 
-![]()
+![DamageDetectPage]()
 
 </div>
 </details>
@@ -141,7 +141,7 @@ description: (국립 중앙도서관 아이디어 공모전) 도서 훼손 판�
 
 <div markdown="1">
 
-![]()
+![DamageDetect]()
 
 </div>
 </details>
@@ -152,7 +152,7 @@ description: (국립 중앙도서관 아이디어 공모전) 도서 훼손 판�
 <br>
 
 ## 7. 단말기 설계도
-![]()
+![MachineArchitecture]()
 
 <br>
 
