@@ -59,19 +59,19 @@ description: (교내프로젝트) 실시간 여행 공유 SNS 어플리케이션
 <div markdown="1">
 
 ## 5-1. 메인 화면
-![MainPage]()
+![MainPage](../assets/img/team_project/Picstagram-MainPage.png)
 
 ## 5.2. 지도 화면
-![MapPage]()
+![MapPage](../assets/img/team_project/Picstagram-MapPage.png)
 
 ## 5.3. 상세 게시물 화면
-![PostPage]()
+![PostPage](../assets/img/team_project/Picstagram-DetailPage.png)
 
 ## 5.4. 프로필 화면
-![ProfilePage]()
+![ProfilePage](../assets/img/team_project/Picstagram-Profile.png)
 
 ## 5.5. 팔로우/팔로잉
-![FollowPage]()
+![FollowPage](../assets/img/team_project/Picstagram-Follow.png)
 
 </div>
 </details>
