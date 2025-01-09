@@ -108,7 +108,11 @@ title: "Main"
 
   /* 각 스킬 박스 스타일 */
   .skill-box {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  /* 수직 방향 중앙 정렬 */
+    justify-content: center; /* 필요하시면 수평/수직 한 번에 센터링 */
+    text-align: center; /* 텍스트 중앙 정렬 */
   }
 
   /* 스킬 이미지 스타일 */
