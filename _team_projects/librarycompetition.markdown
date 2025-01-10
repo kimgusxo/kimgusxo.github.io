@@ -13,7 +13,8 @@ description: (국립 중앙도서관 아이디어 공모전) 도서 훼손 판�
 <br>
 
 ## 1. 깃허브 링크
-- [LibraryCompetition](https://github.com/kimgusxo/LibraryCompetition){: target="_blank"}
+- [LibraryCompetition-FrontEnd](https://github.com/kimgusxo/LibraryCompetition){: target="_blank"}
+- [LibraryCompetition-Backend](https://github.com/kimgusxo/LibraryCompetition){: target="_blank"}
 
 <br>
 
