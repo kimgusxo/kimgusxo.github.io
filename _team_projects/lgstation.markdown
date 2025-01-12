@@ -77,7 +77,7 @@ description: (부트캠프 DX 프로젝트) 잠재 고객을 잡기위한 가전
 <summary><b>데이터 분석 과정 설명 펼치기</b></summary>
 <div markdown="1">
 
-## 4-1. 크롤링
+### 4-1. 크롤링
 <details>
 <summary>
 <b>크롤링 상세 보기</b>
@@ -87,7 +87,7 @@ description: (부트캠프 DX 프로젝트) 잠재 고객을 잡기위한 가전
 </div>
 </details>
 
-## 4-2. 클러스터링
+### 4-2. 클러스터링
 <details>
 <summary>
 <b>클러스터링 상세 보기</b>
@@ -97,7 +97,7 @@ description: (부트캠프 DX 프로젝트) 잠재 고객을 잡기위한 가전
 </div>
 </details>
 
-## 4-3. 토픽 분석 및 기회영역 분석
+### 4-3. 토픽 분석 및 기회영역 분석
 <details>
 <summary>
 <b>토픽 분석 및 기회영역 분석 상세보기</b>
@@ -108,7 +108,7 @@ description: (부트캠프 DX 프로젝트) 잠재 고객을 잡기위한 가전
 </div>
 </details>
 
-## 4-3. 페르소나 도출
+### 4-3. 페르소나 도출
 <details>
 <summary>
 <b>페르소나 상세 보기</b>
@@ -154,22 +154,22 @@ description: (부트캠프 DX 프로젝트) 잠재 고객을 잡기위한 가전
 <summary><b>관리자 대시보드 기능 펼치기</b></summary>
 <div markdown="1">
 
-## 8-1. 메인 페이지
+### 8-1. 메인 페이지
 ![DashBoard-Main](../assets/img/team_project/LG_LifeStation-DashBoardMain.png)
 
-## 8-2. 밀키트 페이지
+### 8-2. 밀키트 페이지
 ![DashBoard-MealKit](../assets/img/team_project/LG_LifeStation-MealKit.png)
 
-## 8-3. 세탁용품 페이지
+### 8-3. 세탁용품 페이지
 ![DashBoard-Laundry](../assets/img/team_project/LG_LifeStation-Laundry.png)
 
-## 8-4. 고객 페이지
+### 8-4. 고객 페이지
 ![DashBoard-Customer](../assets/img/team_project/LG_LifeStation-Customer.png)
 
-## 8-5. 가전 페이지
+### 8-5. 가전 페이지
 ![DashBoard-HomeAppliance](../assets/img/team_project/LG_LifeStation-Appliance.png)
 
-## 8-6. 재고 페이지
+### 8-6. 재고 페이지
 ![DashBoard-Count](../assets/img/team_project/LG_LifeStation-Count.png)
 
 </div>
@@ -183,19 +183,19 @@ description: (부트캠프 DX 프로젝트) 잠재 고객을 잡기위한 가전
 <summary><b>웹 결제 시스템 기능 펼치기</b></summary>
 <div markdown="1">
 
-## 9-1. 이용권 페이지
+### 9-1. 이용권 페이지
 ![Kiosk-Ticket](../assets/img/team_project/LG_LifeStation-Ticket.png)
 
-## 9-2 상품 페이지
+### 9-2 상품 페이지
 ![Kiosk-Product](../assets/img/team_project/LG_LifeStation-Product.png)
 
-## 9-2 담기 페이지
+### 9-2 담기 페이지
 ![Kiosk-ProductCount](../assets/img/team_project/LG_LifeStation-ProductCount.png)
 
-## 9-3. 장바구니 페이지
+### 9-3. 장바구니 페이지
 ![Kiosk-ShopCart](../assets/img/team_project/LG_LifeStation-ShopCart.png)
 
-## 9-4. 결제완료 페이지
+### 9-4. 결제완료 페이지
 ![Kiosk-Complete](../assets/img/team_project/LG_LifeStation-Complete.png)
 
 </div>
@@ -209,22 +209,22 @@ description: (부트캠프 DX 프로젝트) 잠재 고객을 잡기위한 가전
 <summary><b>고객 어플리케이션 기능 펼치기</b></summary>
 <div markdown="1">
 
-## 10-1. 로그인 화면
+### 10-1. 로그인 화면
 ![App-Login](../assets/img/team_project/LG_LifeStation-Login.png)
 
-## 10-2. 카카오톡 로그인 화면
+### 10-2. 카카오톡 로그인 화면
 ![App-KakaoLogin](../assets/img/team_project/LG_LifeStation-KakaoLogin.png)
 
-## 10-3. 메인 화면
+### 10-3. 메인 화면
 ![App-Main](../assets/img/team_project/LG_LifeStation-AppMain.png)
 
-## 10-4. 지도 화면
+### 10-4. 지도 화면
 ![App-Map](../assets/img/team_project/LG_LifeStation-Map.png)
 
-## 10-5. 안내 화면
+### 10-5. 안내 화면
 ![App-Info](../assets/img/team_project/LG_LifeStation-Info.png)
 
-## 10-6. 내 정보 화면
+### 10-6. 내 정보 화면
 ![App-MyInfo](../assets/img/team_project/LG_LifeStation-MyInfo.png)
 
 </div>

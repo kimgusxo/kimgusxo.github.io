@@ -56,7 +56,7 @@ description: (부트캠프 CX 프로젝트) K-POP 팬들을 위한 덕질 어플
 <summary><b>데이터 분석 과정 설명 펼치기</b></summary>
 <div markdown="1">
 
-## 4-1. 1차 크롤링
+### 4-1. 1차 크롤링
 <details>
 <summary>
 <b>1차 크롤링 펼치기</b>
@@ -67,7 +67,7 @@ description: (부트캠프 CX 프로젝트) K-POP 팬들을 위한 덕질 어플
 </div>
 </details>
 
-## 4-2. 2차 크롤링
+### 4-2. 2차 크롤링
 <details>
 <summary>
 <b>2차 크롤링 펼치기</b>
@@ -77,7 +77,7 @@ description: (부트캠프 CX 프로젝트) K-POP 팬들을 위한 덕질 어플
 </div>
 </details>
 
-## 4-3. 1차 액션 클러스터링
+### 4-3. 1차 액션 클러스터링
 <details>
 <summary>
 <b>1차 액션 클러스터링 펼치기</b>
@@ -87,7 +87,7 @@ description: (부트캠프 CX 프로젝트) K-POP 팬들을 위한 덕질 어플
 </div>
 </details>
 
-## 4-4. 1차 액션 토픽 분석
+### 4-4. 1차 액션 토픽 분석
 <details>
 <summary>
 <b>1차 액션 토픽 분석 펼치기</b>
@@ -97,7 +97,7 @@ description: (부트캠프 CX 프로젝트) K-POP 팬들을 위한 덕질 어플
 </div>
 </details>
 
-## 4-5. 2차 액션 클러스터링
+### 4-5. 2차 액션 클러스터링
 <details>
 <summary>
 <b>2차 액션 클러스터링 펼치기</b>
@@ -107,7 +107,7 @@ description: (부트캠프 CX 프로젝트) K-POP 팬들을 위한 덕질 어플
 </div>
 </details>
 
-## 4-6. 2차 액션 토픽 분석
+### 4-6. 2차 액션 토픽 분석
 <details>
 <summary>
 <b>2차 액션 토픽 분석 펼치기</b>
@@ -117,7 +117,7 @@ description: (부트캠프 CX 프로젝트) K-POP 팬들을 위한 덕질 어플
 </div>
 </details>
 
-## 4-7. 페르소나 도출
+### 4-7. 페르소나 도출
 <details>
 <summary>
 <b>페르소나 도출 펼치기</b>
@@ -147,7 +147,7 @@ description: (부트캠프 CX 프로젝트) K-POP 팬들을 위한 덕질 어플
 <summary><b>유스케이스 시나리오 펼치기</b></summary>
 <div markdown="1">
 
-## 7-1. 계정 유스케이스 시나리오
+### 7-1. 계정 유스케이스 시나리오
 <details>
 
 <summary>
@@ -161,7 +161,7 @@ description: (부트캠프 CX 프로젝트) K-POP 팬들을 위한 덕질 어플
 </div>
 </details>
 
-## 7-2. 설정 유스케이스 시나리오
+### 7-2. 설정 유스케이스 시나리오
 <details>
 
 <summary>
@@ -175,7 +175,7 @@ description: (부트캠프 CX 프로젝트) K-POP 팬들을 위한 덕질 어플
 </div>
 </details>
 
-## 7-3. 덕질 유스케이스 시나리오
+### 7-3. 덕질 유스케이스 시나리오
 <details>
 
 <summary>
@@ -189,7 +189,7 @@ description: (부트캠프 CX 프로젝트) K-POP 팬들을 위한 덕질 어플
 </div>
 </details>
 
-## 7-4. 팬덤 유스케이스 시나리오
+### 7-4. 팬덤 유스케이스 시나리오
 <details>
 
 <summary>
@@ -216,7 +216,7 @@ description: (부트캠프 CX 프로젝트) K-POP 팬들을 위한 덕질 어플
 <summary><b>핵심 기능 펼치기</b></summary>
 <div markdown="1">
 
-## 8-1. 메인 페이지
+### 8-1. 메인 페이지
 <details>
 
 <summary>
@@ -230,7 +230,7 @@ description: (부트캠프 CX 프로젝트) K-POP 팬들을 위한 덕질 어플
 </div>
 </details>
 
-## 8-2. 설정 페이지
+### 8-2. 설정 페이지
 <details>
 
 <summary>
@@ -244,7 +244,7 @@ description: (부트캠프 CX 프로젝트) K-POP 팬들을 위한 덕질 어플
 </div>
 </details>
 
-## 8-3. 덕질 인생 페이지
+### 8-3. 덕질 인생 페이지
 <details>
 
 <summary>
@@ -258,7 +258,7 @@ description: (부트캠프 CX 프로젝트) K-POP 팬들을 위한 덕질 어플
 </div>
 </details>
 
-## 8-4. 팬덤 놀이터 페이지
+### 8-4. 팬덤 놀이터 페이지
 <details>
 
 <summary>

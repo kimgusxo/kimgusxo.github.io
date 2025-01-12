@@ -63,7 +63,7 @@ description: (국립 중앙도서관 아이디어 공모전) 도서 훼손 판�
 <summary><b>핵심 기능 설명 펼치기</b></summary>
 <div markdown="1">
 
-## 6-1. 도서관 도서 검색 페이지
+### 6-1. 도서관 도서 검색 페이지
 <details>
 
 <summary>
@@ -77,7 +77,7 @@ description: (국립 중앙도서관 아이디어 공모전) 도서 훼손 판�
 </div>
 </details>
 
-## 6-2. 도서관 사용자 검색 페이지
+### 6-2. 도서관 사용자 검색 페이지
 <details>
 
 <summary>
@@ -91,7 +91,7 @@ description: (국립 중앙도서관 아이디어 공모전) 도서 훼손 판�
 </div>
 </details>
 
-## 6-3. 도서 상세정보 페이지
+### 6-3. 도서 상세정보 페이지
 <details>
 
 <summary>
@@ -105,7 +105,7 @@ description: (국립 중앙도서관 아이디어 공모전) 도서 훼손 판�
 </div>
 </details>
 
-## 6-4. 사용자 상세 정보 페이지
+### 6-4. 사용자 상세 정보 페이지
 <details>
 
 <summary>
@@ -119,7 +119,7 @@ description: (국립 중앙도서관 아이디어 공모전) 도서 훼손 판�
 </div>
 </details>
 
-## 6-5. 도서 이미지 훼손도 분석 페이지
+### 6-5. 도서 이미지 훼손도 분석 페이지
 <details>
 
 <summary>
@@ -133,7 +133,7 @@ description: (국립 중앙도서관 아이디어 공모전) 도서 훼손 판�
 </div>
 </details>
 
-## 6-6. 도서 이미지 훼손도 분석
+### 6-6. 도서 이미지 훼손도 분석
 <details>
 
 <summary>

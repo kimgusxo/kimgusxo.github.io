@@ -30,7 +30,6 @@ description: (교내프로젝트) 실시간 여행 공유 SNS 어플리케이션
 <br>
 
 ## 3. Back-End 사용 기술
-### Database Server
 - Javascript
 - React Native
 - Node.js
@@ -49,7 +48,7 @@ description: (교내프로젝트) 실시간 여행 공유 SNS 어플리케이션
 
 <br> 
 
-## 5. 핵심 기능
+## 6. 핵심 기능
 이 서비스의 핵심 기능은 사진 일기입니다.
 사용자는 인앱 카메라로 사진을 찍거나 갤러리에 있는 사진을 통해
 위치 좌표를 기준으로 지도에 여행 경로를 표시합니다.
@@ -58,19 +57,19 @@ description: (교내프로젝트) 실시간 여행 공유 SNS 어플리케이션
 <summary><b>핵심 기능 설명 펼치기</b></summary>
 <div markdown="1">
 
-## 5-1. 메인 화면
+### 6-1. 메인 화면
 ![MainPage](../assets/img/team_project/Picstagram-MainPage.png)
 
-## 5.2. 지도 화면
+### 6-2. 지도 화면
 ![MapPage](../assets/img/team_project/Picstagram-MapPage.png)
 
-## 5.3. 상세 게시물 화면
+### 6-3. 상세 게시물 화면
 ![PostPage](../assets/img/team_project/Picstagram-DetailPage.png)
 
-## 5.4. 프로필 화면
+### 6-4. 프로필 화면
 ![ProfilePage](../assets/img/team_project/Picstagram-Profile.png)
 
-## 5.5. 팔로우/팔로잉
+### 6-5. 팔로우/팔로잉
 ![FollowPage](../assets/img/team_project/Picstagram-Follow.png)
 
 </div>
@@ -78,12 +77,12 @@ description: (교내프로젝트) 실시간 여행 공유 SNS 어플리케이션
 
 <br>
 
-## 6. 시스템 아키텍쳐
+## 7. 시스템 아키텍쳐
 ![SystemArchitecture]()
 
 <br>
 
-## 7. 문제점 회고
+## 8. 문제점 회고
 ### 1. 게시물(Post)·댓글(Comments) 삭제 시 하위 컬렉션 제거 문제
 - 원인: Firestore에서 상위 문서(게시물) 삭제 시, 하위 컬렉션(댓글·이미지)이 자동으로 삭제되지 않음.
 
