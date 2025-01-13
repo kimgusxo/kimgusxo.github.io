@@ -85,41 +85,42 @@ title: "Main"
 
 <style>
   /* 공통 스타일 */
-  .white-background {
-    background-color: #ffffff;
-    padding: 40px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
+.white-background {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 
-  /* 섹션 간 간격 */
-  .skills-section {
-    margin: 40px 0;
-    text-align: center;
-  }
+/* 섹션 간 간격 및 정렬 */
+.skills-section {
+  margin: 40px 0;
+  text-align: center; /* 전체 텍스트 중앙 정렬 */
+}
 
-  /* 그리드 스타일 */
-  .skills-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    gap: 20px;
-    justify-items: center;
-    align-items: center;
-  }
+/* 그리드 스타일 */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 20px;
+  justify-items: center; /* 그리드 아이템 수평 정렬 */
+  align-items: center; /* 그리드 아이템 수직 정렬 */
+}
 
-  /* 각 스킬 박스 스타일 */
-  .skill-box {
-    display: flex;
-    flex-direction: column;
-    align-items: center;  /* 수직 방향 중앙 정렬 */
-    justify-content: center; /* 필요하시면 수평/수직 한 번에 센터링 */
-    text-align: center; /* 텍스트 중앙 정렬 */
-  }
+/* 각 스킬 박스 스타일 */
+.skill-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* 수평 중앙 정렬 */
+  justify-content: center; /* 수직 중앙 정렬 */
+  text-align: center; /* 텍스트 중앙 정렬 */
+}
 
-  /* 스킬 이미지 스타일 */
-  .skill-image {
-    width: 200px; /* 필요에 따라 크기 조절 */
-    height: auto;
-    margin-bottom: 10px;
-  }
+/* 스킬 이미지 스타일 */
+.skill-image {
+  width: 150px; /* 이미지 크기 조정 */
+  height: auto;
+  margin-bottom: 10px; /* 이미지와 텍스트 간격 */
+}
+
 </style>
