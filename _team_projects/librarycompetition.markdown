@@ -72,7 +72,7 @@ description: (국립 중앙도서관 아이디어 공모전) 도서 훼손 판�
 
 <div markdown="1">
 
-![BookSearchPage]()
+![BookPage](../assets/img/team_project/LibraryCompetition-BookPage.png)
 
 </div>
 </details>
@@ -86,7 +86,7 @@ description: (국립 중앙도서관 아이디어 공모전) 도서 훼손 판�
 
 <div markdown="1">
 
-![UserSearchPage]()
+![MemberPage](../assets/img/team_project/LibraryCompetition-MemberPage.png)
 
 </div>
 </details>
@@ -100,7 +100,7 @@ description: (국립 중앙도서관 아이디어 공모전) 도서 훼손 판�
 
 <div markdown="1">
 
-![BookDetailPage]()
+![BookDetailPage](../assets/img/team_project/LibraryCompetition-BookDetailPage.png)
 
 </div>
 </details>
@@ -114,7 +114,7 @@ description: (국립 중앙도서관 아이디어 공모전) 도서 훼손 판�
 
 <div markdown="1">
 
-![UserDetailPage]()
+![MemberDetailPage](../assets/img/team_project/LibraryCompetition-MemberDetailPage.png)
 
 </div>
 </details>
@@ -128,7 +128,7 @@ description: (국립 중앙도서관 아이디어 공모전) 도서 훼손 판�
 
 <div markdown="1">
 
-![DamageDetectPage]()
+![DamageDetectPage](../assets/img/team_project/LibraryCompetition-DamageDetectPage.png)
 
 </div>
 </details>
@@ -142,7 +142,7 @@ description: (국립 중앙도서관 아이디어 공모전) 도서 훼손 판�
 
 <div markdown="1">
 
-![DamageDetect]()
+![DamageDetect](../assets/img/team_project/LibraryCompetition-DamageDetect.png)
 
 </div>
 </details>
@@ -152,10 +152,5 @@ description: (국립 중앙도서관 아이디어 공모전) 도서 훼손 판�
 
 <br>
 
-## 7. 단말기 설계도
-![MachineArchitecture]()
-
-<br>
-
-## 8. 문제점 회고
+## 7. 문제점 회고
 ### 1. 
