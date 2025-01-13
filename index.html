@@ -84,7 +84,7 @@ title: "Main"
 </section>
 
 <style>
-  /* 공통 스타일 */
+/* 공통 스타일 */
 .white-background {
   background-color: #ffffff;
   padding: 40px;
@@ -101,10 +101,10 @@ title: "Main"
 /* 그리드 스타일 */
 .skills-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 20px;
-  justify-items: center; /* 그리드 아이템 수평 정렬 */
-  align-items: center; /* 그리드 아이템 수직 정렬 */
+  justify-content: center; /* 그리드 아이템 전체 수평 중앙 정렬 */
+  align-items: center; /* 그리드 아이템 전체 수직 중앙 정렬 */
 }
 
 /* 각 스킬 박스 스타일 */
@@ -114,13 +114,13 @@ title: "Main"
   align-items: center; /* 수평 중앙 정렬 */
   justify-content: center; /* 수직 중앙 정렬 */
   text-align: center; /* 텍스트 중앙 정렬 */
+  height: 100%; /* 높이 설정 */
 }
 
 /* 스킬 이미지 스타일 */
 .skill-image {
-  width: 150px; /* 이미지 크기 조정 */
+  max-width: 100px; /* 이미지 크기 제한 */
   height: auto;
   margin-bottom: 10px; /* 이미지와 텍스트 간격 */
 }
-
 </style>
