@@ -49,11 +49,16 @@ description: (국립 중앙도서관 아이디어 공모전) 도서 훼손 판�
 <br>
 
 ## 5. Document 구조
-![Document](../assets/img/team_project/LibraryCompetition-Document.png)
+![Document](../assets/img/team_project/LibraryCompetition-ERDDiagram.png)
 
 <br>
 
-## 6. 핵심 기능
+## 6. 시스템 아키텍쳐
+![SystemArchitecture](../assets/img/team_project/LibraryCompetition-SystemArchitecture.png)
+
+<br>
+
+## 7. 핵심 기능
 이 서비스의 핵심 기능은 도서 훼손 판독입니다.
 단말기 카메라가 3방향에서 도서 이미지를 생성하면 훼손도를 판독하여 대시보드를 갱신합니다.
 
@@ -62,7 +67,7 @@ description: (국립 중앙도서관 아이디어 공모전) 도서 훼손 판�
 <summary><b>핵심 기능 설명 펼치기</b></summary>
 <div markdown="1">
 
-### 6-1. 도서관 도서 검색 페이지
+### 7-1. 도서관 도서 검색 페이지
 <details>
 
 <summary>
@@ -76,7 +81,7 @@ description: (국립 중앙도서관 아이디어 공모전) 도서 훼손 판�
 </div>
 </details>
 
-### 6-2. 도서관 사용자 검색 페이지
+### 7-2. 도서관 사용자 검색 페이지
 <details>
 
 <summary>
@@ -90,7 +95,7 @@ description: (국립 중앙도서관 아이디어 공모전) 도서 훼손 판�
 </div>
 </details>
 
-### 6-3. 도서 상세정보 페이지
+### 7-3. 도서 상세정보 페이지
 <details>
 
 <summary>
@@ -104,7 +109,7 @@ description: (국립 중앙도서관 아이디어 공모전) 도서 훼손 판�
 </div>
 </details>
 
-### 6-4. 사용자 상세 정보 페이지
+### 7-4. 사용자 상세 정보 페이지
 <details>
 
 <summary>
@@ -118,7 +123,7 @@ description: (국립 중앙도서관 아이디어 공모전) 도서 훼손 판�
 </div>
 </details>
 
-### 6-5. 도서 이미지 훼손도 판단 페이지
+### 7-5. 도서 이미지 훼손도 판단 페이지
 <details>
 
 <summary>
@@ -132,7 +137,7 @@ description: (국립 중앙도서관 아이디어 공모전) 도서 훼손 판�
 </div>
 </details>
 
-### 6-6. 도서 이미지 훼손도 분석
+### 7-6. 도서 이미지 훼손도 분석
 <details>
 
 <summary>
@@ -148,11 +153,6 @@ description: (국립 중앙도서관 아이디어 공모전) 도서 훼손 판�
 
 </div>
 </details>
-
-<br>
-
-## 7. 시스템 아키텍쳐
-![SystemArchitecture](../assets/img/team_project/LibraryCompetition-SystemArchitecture.png)
 
 <br>
 
