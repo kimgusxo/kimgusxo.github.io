@@ -13,8 +13,9 @@ description: (국립 중앙도서관 아이디어 공모전) 도서 훼손 판�
 <br>
 
 ## 1. 깃허브 링크
-- [LibraryCompetition-FrontEnd](https://github.com/kimgusxo/LibraryCompetition){: target="_blank"}
-- [LibraryCompetition-Backend](https://github.com/kimgusxo/LibraryCompetition){: target="_blank"}
+- [LibraryCompetition-FrontEnd](https://github.com/kimgusxo/LibraryCompetition-Frontend){: target="_blank"}
+- [LibraryCompetition-Backend](https://github.com/kimgusxo/LibraryCompetition-Backend){: target="_blank"}
+- [LibraryCompetition-Model](https://github.com/kimgusxo/LibraryCompetition-Model){: target="_blank"}
 
 <br>
 
@@ -100,7 +101,7 @@ description: (국립 중앙도서관 아이디어 공모전) 도서 훼손 판�
 
 <div markdown="1">
 
-![BookDetailPage](../assets/img/team_project/LibraryCompetition-BookDetailPage.png)
+![BookDetail](../assets/img/team_project/LibraryCompetition-BookDetail.png)
 
 </div>
 </details>
@@ -114,12 +115,12 @@ description: (국립 중앙도서관 아이디어 공모전) 도서 훼손 판�
 
 <div markdown="1">
 
-![MemberDetailPage](../assets/img/team_project/LibraryCompetition-MemberDetailPage.png)
+![MemberDetail](../assets/img/team_project/LibraryCompetition-MemberDetail.png)
 
 </div>
 </details>
 
-### 6-5. 도서 이미지 훼손도 분석 페이지
+### 6-5. 도서 이미지 훼손도 판단 페이지
 <details>
 
 <summary>
@@ -128,7 +129,7 @@ description: (국립 중앙도서관 아이디어 공모전) 도서 훼손 판�
 
 <div markdown="1">
 
-![DamageDetectPage](../assets/img/team_project/LibraryCompetition-DamageDetectPage.png)
+![ImagePage](../assets/img/team_project/LibraryCompetition-ImagePage.png)
 
 </div>
 </details>
@@ -142,7 +143,7 @@ description: (국립 중앙도서관 아이디어 공모전) 도서 훼손 판�
 
 <div markdown="1">
 
-![DamageDetect](../assets/img/team_project/LibraryCompetition-DamageDetect.png)
+![Result](../assets/img/team_project/LibraryCompetition-Result.png)
 
 </div>
 </details>
