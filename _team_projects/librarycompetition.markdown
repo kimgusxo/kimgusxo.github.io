@@ -2,7 +2,7 @@
 layout: post
 title: "Library"
 permalink: /library/
-img: team_project/LibraryCompetition-thumbNail.png
+img: team_project/LibraryCompetition-Thumbnail.png
 date: 2024-08-30 00:00:00 +0900
 description: (국립 중앙도서관 아이디어 공모전) 도서 훼손 판독을 통한 대시보드 어플리케이션
 ---
@@ -56,8 +56,6 @@ description: (국립 중앙도서관 아이디어 공모전) 도서 훼손 판�
 ## 6. 핵심 기능
 이 서비스의 핵심 기능은 도서 훼손 판독입니다.
 단말기 카메라가 3방향에서 도서 이미지를 생성하면 훼손도를 판독하여 대시보드를 갱신합니다.
-
-<br>
 
 <details>
 
@@ -153,5 +151,10 @@ description: (국립 중앙도서관 아이디어 공모전) 도서 훼손 판�
 
 <br>
 
-## 7. 문제점 회고
+## 7. 시스템 아키텍쳐
+![SystemArchitecture](../assets/img/team_project/LibraryCompetition-SystemArchitecture.png)
+
+<br>
+
+## 8. 문제점 회고
 ### 1. 

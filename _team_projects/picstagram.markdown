@@ -78,7 +78,7 @@ description: (교내프로젝트) 실시간 여행 공유 SNS 어플리케이션
 <br>
 
 ## 7. 시스템 아키텍쳐
-![SystemArchitecture]()
+![SystemArchitecture](../assets/img/team_project/Picstagram-SystemArchitecture.png)
 
 <br>
 

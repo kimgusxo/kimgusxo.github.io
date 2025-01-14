@@ -93,7 +93,7 @@ description: (교내 프로젝트) OCR 기술을 활용한 처방전 기반 자�
 <br>
 
 ## 6. 시스템 아키텍쳐
-![ServiceArchitecture](../assets/img/team_project/PillGood-ServiceArchitecture.png)
+![ServiceArchitecture](../assets/img/team_project/PillGood-SystemArchitecture.png)
 
 <br>
 
