@@ -87,14 +87,14 @@ description: (엘라스틱서치와 배포 공부용) 문장형 소설 검색 �
 </summary>
 		
 <div markdown="1">
-		
+
 ![NovelSearch](../assets/img/personal_project/NovelIsland-NovelSearch.png)
-		
+- 키워드와 관련된 소설 리스트를 보여줍니다.
+
 </div>
 </details>
 
 ### 5-2. 작가 검색
-
 <details>
 
 <summary>
@@ -104,12 +104,12 @@ description: (엘라스틱서치와 배포 공부용) 문장형 소설 검색 �
 <div markdown="1">
 
 ![AuthorSearch](../assets/img/personal_project/NovelIsland-AuthorSearch.png)
+- 키워드와 관련된 작가 리스트를 보여줍니다.
 
 </div>
 </details>
 
 ### 5-3. 장르 검색
-
 <details>
 
 <summary>
@@ -119,12 +119,12 @@ description: (엘라스틱서치와 배포 공부용) 문장형 소설 검색 �
 <div markdown="1">
 
 ![GenreSearch](../assets/img/personal_project/NovelIsland-GenreSearch.png)
+- 선택한 장르의 소설 리스트를 보여줍니다.
 
 </div>
 </details>
 
 ### 5-4. 북마크 관리
-
 <details>
 
 <summary>
@@ -135,12 +135,12 @@ description: (엘라스틱서치와 배포 공부용) 문장형 소설 검색 �
 
 ![Bookmark1](../assets/img/personal_project/NovelIsland-Bookmark1.png)
 ![Bookmark2](../assets/img/personal_project/NovelIsland-Bookmark2.png)
+- 북마크 등록한 소설 리스트를 보여줍니다.
 
 </div>
 </details>
 
 ### 5-5. 북마크 등록
-
 <details>
 
 <summary>
@@ -151,11 +151,12 @@ description: (엘라스틱서치와 배포 공부용) 문장형 소설 검색 �
 
 ![BookmarkRegistration1](../assets/img/personal_project/NovelIsland-BookmarkRegistration1.png)
 ![BookmarkRegistration1](../assets/img/personal_project/NovelIsland-BookmarkRegistration2.png)
+- 빈 하트 아이콘을 눌러 북마크를 등록할 수 있습니다.
+
 </div>
 </details>
 
 ### 5-6. 북마크 해제
-
 <details>
 
 <summary>
@@ -166,12 +167,12 @@ description: (엘라스틱서치와 배포 공부용) 문장형 소설 검색 �
 
 ![BookmarkClear1](../assets/img/personal_project/NovelIsland-BookmarkClear1.png)
 ![BookmarkClear2](../assets/img/personal_project/NovelIsland-BookmarkClear2.png)
+- 빨간 하트 아이콘을 눌러 등록한 북마크를 해제할 수 있습니다.
 
 </div>
 </details>
 
 ### 5-7. 문장형 소설 검색
-
 <details>
 
 <summary>
@@ -182,12 +183,12 @@ description: (엘라스틱서치와 배포 공부용) 문장형 소설 검색 �
 
 ![SentenceSearch1](../assets/img/personal_project/NovelIsland-SentenceSearch1.png)
 ![SentenceSearch2](../assets/img/personal_project/NovelIsland-SentenceSearch2.png)
+- 문장형으로 소설을 검색하여 가장 비슷한 소설 리스트를 보여줍니다.
 
 </div>
 </details>
 
 ### 5-8. 소설 상세정보
-
 <details>
 
 <summary>
@@ -197,6 +198,7 @@ description: (엘라스틱서치와 배포 공부용) 문장형 소설 검색 �
 <div markdown="1">
 
 ![NovelDescription](../assets/img/personal_project/NovelIsland-NovelDescription.png)
+- 소설의 상세 정보를 보여줍니다.
 
 </div>
 </details>
@@ -208,7 +210,6 @@ description: (엘라스틱서치와 배포 공부용) 문장형 소설 검색 �
 
 ## 6. 시스템 아키텍쳐
 ![BatchDiagram](../assets/img/personal_project/NovelIsland-BatchDiagram.png)
-
 
 <br>
 
