@@ -77,6 +77,7 @@ description: (국립 중앙도서관 아이디어 공모전) 도서 훼손 판�
 <div markdown="1">
 
 ![BookPage](../assets/img/team_project/LibraryCompetition-BookPage.png)
+- 해당 도서관의 도서 목록과 상태를 대시보드 형태로 보여준다.
 
 </div>
 </details>
@@ -91,6 +92,7 @@ description: (국립 중앙도서관 아이디어 공모전) 도서 훼손 판�
 <div markdown="1">
 
 ![MemberPage](../assets/img/team_project/LibraryCompetition-MemberPage.png)
+- 해당 도서관의 이용자 목록과 상태를 대시보드 형태로 보여준다.
 
 </div>
 </details>
@@ -105,6 +107,7 @@ description: (국립 중앙도서관 아이디어 공모전) 도서 훼손 판�
 <div markdown="1">
 
 ![BookDetail](../assets/img/team_project/LibraryCompetition-BookDetail.png)
+- 해당 도서의 기본정보와 훼손률, 대출기록을 확인할 수 있다.
 
 </div>
 </details>
@@ -119,6 +122,7 @@ description: (국립 중앙도서관 아이디어 공모전) 도서 훼손 판�
 <div markdown="1">
 
 ![MemberDetail](../assets/img/team_project/LibraryCompetition-MemberDetail.png)
+- 해당 유저의 대출 기록과 훼손 기록을 볼 수 있다.
 
 </div>
 </details>
@@ -133,6 +137,7 @@ description: (국립 중앙도서관 아이디어 공모전) 도서 훼손 판�
 <div markdown="1">
 
 ![ImagePage](../assets/img/team_project/LibraryCompetition-ImagePage.png)
+- 반납 시 3방향(정면, 우상단, 좌하단)의 사진을 통해 훼손률을 확인할 수 있다.
 
 </div>
 </details>
@@ -147,6 +152,7 @@ description: (국립 중앙도서관 아이디어 공모전) 도서 훼손 판�
 <div markdown="1">
 
 ![Result](../assets/img/team_project/LibraryCompetition-Result.png)
+- 훼손도 판독 모델을 사용하여 9방향의 그리드를 통해 구역별로 훼손도를 측정하여 사용자가 훼손을 시켰는지 판단한다.
 
 </div>
 </details>

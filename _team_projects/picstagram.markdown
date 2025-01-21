@@ -59,18 +59,23 @@ description: (교내프로젝트) 실시간 여행 공유 SNS 어플리케이션
 
 ### 6-1. 메인 화면
 ![MainPage](../assets/img/team_project/Picstagram-MainPage.png)
+- 자신이 팔로우하고 있는 계정의 여행일기들을 볼 수 있다.
 
 ### 6-2. 지도 화면
 ![MapPage](../assets/img/team_project/Picstagram-MapPage.png)
+- 여행일기에 첨부된 사진의 경로와 여행 지역을 지도로 볼 수 있다.
 
 ### 6-3. 상세 게시물 화면
 ![PostPage](../assets/img/team_project/Picstagram-DetailPage.png)
+- 여행일기의 본문내용과 사진들을 확인할 수 있다.
 
 ### 6-4. 프로필 화면
 ![ProfilePage](../assets/img/team_project/Picstagram-Profile.png)
+- 내가 쓴 글과 팔로워/팔로잉 수를 확인할 수 있다.
 
-### 6-5. 팔로우/팔로잉
+### 6-5. 팔로워/팔로잉
 ![FollowPage](../assets/img/team_project/Picstagram-Follow.png)
+- 자신의 팔로워/팔로잉을 한 계정 리스트를 확인할 수 있다.
 
 </div>
 </details>
