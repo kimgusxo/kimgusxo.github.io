@@ -58,72 +58,108 @@ description: (부트캠프 CX 프로젝트) K-POP 팬들을 위한 덕질 어플
 
 ### 4-1. 1차 크롤링
 <details>
+
 <summary>
-<b>1차 크롤링 펼치기</b>
+  <b>1차 크롤링 펼치기</b>
+
 </summary>
+
 <div markdown="1">
+
 ![FirstCrawling1](../assets/img/team_project/LightMe-Crawling1-1.png)
 ![FirstCrawling2](../assets/img/team_project/LightMe-Crawling1-2.png)
+- 
+
 </div>
 </details>
 
 ### 4-2. 2차 크롤링
 <details>
+
 <summary>
-<b>2차 크롤링 펼치기</b>
+  <b>2차 크롤링 펼치기</b>
 </summary>
+
 <div markdown="1">
+
 ![SecondCrawling](../assets/img/team_project/LightMe-Crawling2.png)
+- 
+
 </div>
 </details>
 
 ### 4-3. 1차 액션 클러스터링
 <details>
+
 <summary>
-<b>1차 액션 클러스터링 펼치기</b>
+  <b>1차 액션 클러스터링 펼치기</b>
 </summary>
+
 <div markdown="1">
+
 ![FirstActionClustering](../assets/img/team_project/LightMe-ActorClustering1.png)
+- 
 </div>
+
 </details>
 
 ### 4-4. 1차 액션 토픽 분석
 <details>
+
 <summary>
-<b>1차 액션 토픽 분석 펼치기</b>
+  <b>1차 액션 토픽 분석 펼치기</b>
 </summary>
+
 <div markdown="1">
+
 ![FirstActionTopicAnalysis](../assets/img/team_project/LightMe-ActorTopic1.png)
+- 
+
 </div>
 </details>
 
 ### 4-5. 2차 액션 클러스터링
 <details>
+
 <summary>
-<b>2차 액션 클러스터링 펼치기</b>
+  <b>2차 액션 클러스터링 펼치기</b>
 </summary>
+
 <div markdown="1">
+
 ![SecondActionClustering](../assets/img/team_project/LightMe-ActorClustering2.png)
+- 
+
 </div>
 </details>
 
 ### 4-6. 2차 액션 토픽 분석
 <details>
+
 <summary>
-<b>2차 액션 토픽 분석 펼치기</b>
+  <b>2차 액션 토픽 분석 펼치기</b>
 </summary>
+
 <div markdown="1">
+
 ![SecondActionTopicAnalysis](../assets/img/team_project/LightMe-ActorTopic2.png)
+- 
+
 </div>
 </details>
 
 ### 4-7. 페르소나 도출
 <details>
+
 <summary>
-<b>페르소나 도출 펼치기</b>
+  <b>페르소나 도출 펼치기</b>
 </summary>
+
 <div markdown="1">
+
 ![Persona](../assets/img/team_project/LightMe-Persona.png)
+- 
+
 </div>
 </details>
 
@@ -144,12 +180,11 @@ description: (부트캠프 CX 프로젝트) K-POP 팬들을 위한 덕질 어플
 
 ## 7. 유스케이스 시나리오
 <details>
-<summary><b>유스케이스 시나리오 펼치기</b></summary>
+  <summary><b>유스케이스 시나리오 펼치기</b></summary>
 <div markdown="1">
 
 ### 7-1. 계정 유스케이스 시나리오
 <details>
-
 <summary>
   <b>계정 유스케이스 시나리오 보기</b>
 </summary>
@@ -226,6 +261,7 @@ description: (부트캠프 CX 프로젝트) K-POP 팬들을 위한 덕질 어플
 <div markdown="1">
 
 ![Page1](../assets/img/team_project/LightMe-Page1.png)
+- 
 
 </div>
 </details>
@@ -240,6 +276,7 @@ description: (부트캠프 CX 프로젝트) K-POP 팬들을 위한 덕질 어플
 <div markdown="1">
 
 ![Page2](../assets/img/team_project/LightMe-Page2.png)
+- 
 
 </div>
 </details>
@@ -254,6 +291,7 @@ description: (부트캠프 CX 프로젝트) K-POP 팬들을 위한 덕질 어플
 <div markdown="1">
 
 ![Page3](../assets/img/team_project/LightMe-Page3.png)
+- 
 
 </div>
 </details>
@@ -268,6 +306,7 @@ description: (부트캠프 CX 프로젝트) K-POP 팬들을 위한 덕질 어플
 <div markdown="1">
 
 ![Page4](../assets/img/team_project/LightMe-Page4.png)
+- 
 
 </div>
 </details>
