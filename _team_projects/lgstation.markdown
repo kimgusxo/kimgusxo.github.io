@@ -176,11 +176,11 @@ description: (부트캠프 DX 프로젝트) 잠재 고객을 잡기위한 가전
 
 ### 8-1. 메인 페이지
 ![DashBoard-Main](../assets/img/team_project/LG_LifeStation-DashBoardMain.png)
-- 
+- 보고싶은 지점을 선택하고 해당 지점의 월 별 총 매출액, 월 별 매장 방문 고객 수, 월 별 밀키트 매출액 순위, 월 별 세탁용품 매출액 순위를 대시보드 형태로 보여준다.
 
 ### 8-2. 밀키트 페이지
 ![DashBoard-MealKit](../assets/img/team_project/LG_LifeStation-MealKit.png)
-- 
+- 매장의 밀키트 리스트와 연도별 판매량 순위, 밀키트 별 판매량 차트, 월 별 밀키트 판매량 순위를 대시보드 형태로 보여준다.
 
 ### 8-3. 세탁용품 페이지
 ![DashBoard-Laundry](../assets/img/team_project/LG_LifeStation-Laundry.png)
