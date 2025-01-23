@@ -67,8 +67,9 @@ description: (부트캠프 CX 프로젝트) K-POP 팬들을 위한 덕질 어플
 <div markdown="1">
 
 ![FirstCrawling1](../assets/img/team_project/LightMe-Crawling1-1.png)
+- 팬덤 문화를 더욱 더 깊이있게 알아보기 위해 큰 주제들로 1차 크롤링 진행
+
 ![FirstCrawling2](../assets/img/team_project/LightMe-Crawling1-2.png)
-- 
 
 </div>
 </details>
