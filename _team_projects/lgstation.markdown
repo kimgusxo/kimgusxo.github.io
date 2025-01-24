@@ -100,8 +100,11 @@ description: (부트캠프 DX 프로젝트) 잠재 고객을 잡기위한 가전
 
 <div markdown="1">
 
-![Clustering](../assets/img/team_project/LG_LifeStation-Clustering.png)
-- 계층적 클러스터링/PCA/
+![Clustering1](../assets/img/team_project/LG_LifeStation-ClusteringPerformance.png)
+- 계층적 클러스터링, K-Means, DBSCAN 방식으로 하이퍼 파라미터와 벡터화 방식을 바꿔서 덴드로그램과 실루엣지수를 뽑아봤지만 유의미한 계수(0.5 이상)가 나오지 않음, 가장 좋게 나온 벡터화 방식이 LDA 토픽 벡터로 도출
+
+![Clustering2](../assets/img/team_project/LG_LifeStation-Clustering.png)
+- LDA 토픽 벡터를 포함시켜 다시 클러스터링 성능평가를 한 결과 TfIdfVectorizer + LDA Topic Vecter + AgglomerativeClustering(ward 연결법)의 실루엣 지수와 클러스터링된 데이터의 균등한 분포를 확인하여 현 방식으로 진행
 
 </div>
 </details>
@@ -116,8 +119,10 @@ description: (부트캠프 DX 프로젝트) 잠재 고객을 잡기위한 가전
 <div markdown="1">
 
 ![ActorClustering](../assets/img/team_project/LG_LifeStation-ActorClustering.png)
+- 클러스터링 된 데이터를 다시 LDA 토픽 모델링을 통해 액션을 도출하고 각각 내용을 분석
+
 ![Opportunity](../assets/img/team_project/LG_LifeStation-Opportunity.png)
-- 
+- 모든 클러스터링의 모든 액션을 기회영역분석을 통해 그래프로 시각화하고 영역에 포진된 Actor2와 Actor4를 심층분석하여 중요 포인트 정리
 
 </div>
 </details>
@@ -132,7 +137,7 @@ description: (부트캠프 DX 프로젝트) 잠재 고객을 잡기위한 가전
 <div markdown="1">
 
 ![Persona](../assets/img/team_project/LG_LifeStation-Persona.png)
-- 
+- 중요포인트를 토대로 페르소나 도출
 
 </div>
 </details>

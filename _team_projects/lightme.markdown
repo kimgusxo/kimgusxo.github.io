@@ -67,9 +67,10 @@ description: (부트캠프 CX 프로젝트) K-POP 팬들을 위한 덕질 어플
 <div markdown="1">
 
 ![FirstCrawling1](../assets/img/team_project/LightMe-Crawling1-1.png)
-- 팬덤 문화를 더욱 더 깊이있게 알아보기 위해 큰 주제들로 1차 크롤링 진행
+- 팬덤 문화는 폐쇄적이라 데이터에 팬들이 사용하는 은어가 많이 분포되어있음. 따라서 직접 원문들을 확인하여 은어를 정리하여 크롤링 진행
 
 ![FirstCrawling2](../assets/img/team_project/LightMe-Crawling1-2.png)
+- 크롤링을 진행한 뒤 팬덤 문화는 크게 4가지로 구분되었고 그 중 가장 데이터의 양이 많던 굿즈 문화에 타겟팅함
 
 </div>
 </details>
@@ -84,7 +85,7 @@ description: (부트캠프 CX 프로젝트) K-POP 팬들을 위한 덕질 어플
 <div markdown="1">
 
 ![SecondCrawling](../assets/img/team_project/LightMe-Crawling2.png)
-- 
+- 굿즈 문화를 깊이있게 이해하기 위해 굿즈 물품을 키워드로 사용하여 2차 크롤링을 진행하여 2만개의 데이터 확보
 
 </div>
 </details>
