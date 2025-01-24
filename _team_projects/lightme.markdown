@@ -262,7 +262,7 @@ description: (부트캠프 CX 프로젝트) K-POP 팬들을 위한 덕질 어플
 <div markdown="1">
 
 ![Page1](../assets/img/team_project/LightMe-Page1.png)
-- 
+- 본인의 정보와 최애그룹의 가장 빠른 일정을 보여준다.
 
 </div>
 </details>
@@ -277,7 +277,7 @@ description: (부트캠프 CX 프로젝트) K-POP 팬들을 위한 덕질 어플
 <div markdown="1">
 
 ![Page2](../assets/img/team_project/LightMe-Page2.png)
-- 
+- 나의 정보를 설정하는 페이지이다.
 
 </div>
 </details>
@@ -292,7 +292,7 @@ description: (부트캠프 CX 프로젝트) K-POP 팬들을 위한 덕질 어플
 <div markdown="1">
 
 ![Page3](../assets/img/team_project/LightMe-Page3.png)
-- 
+- 일정달력에서는 최애 그룹의 일정들을 캘린더에 표시하고 캘린더를 터치하여 상세 일정을 확인하고 감정달력에서는 녹음 버튼을 눌러 오늘의 일기를 기록하고 일기 내용을 통해 감정 구슬을 생성하여 색상 별로 캘린더에 표시한다.
 
 </div>
 </details>
@@ -307,7 +307,7 @@ description: (부트캠프 CX 프로젝트) K-POP 팬들을 위한 덕질 어플
 <div markdown="1">
 
 ![Page4](../assets/img/team_project/LightMe-Page4.png)
-- 
+- 최애 그룹을 설정한 사람들의 감정 통계를 차트 형태로 보여준다.
 
 </div>
 </details>

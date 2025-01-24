@@ -86,7 +86,7 @@ description: (부트캠프 DX 프로젝트) 잠재 고객을 잡기위한 가전
 <div markdown="1">
 
 ![Crawling](../assets/img/team_project/LG_LifeStation-Crawling.png)
-- 
+- 더쿠/디시인사이드(자취/서브컬쳐/게임과 같은 20~30대가 주를 이루는 갤러리)에서 1차 키워드를 통해 넓은 범위의 크롤링 데이터를 얻고 Tf-idf를 통해 많이 나온 단어들을 통해 2차 크롤링을 진행하여 15,000개의 데이터 확보
 
 </div>
 </details>
@@ -101,7 +101,7 @@ description: (부트캠프 DX 프로젝트) 잠재 고객을 잡기위한 가전
 <div markdown="1">
 
 ![Clustering](../assets/img/team_project/LG_LifeStation-Clustering.png)
-- 
+- 계층적 클러스터링/PCA/
 
 </div>
 </details>
@@ -188,15 +188,15 @@ description: (부트캠프 DX 프로젝트) 잠재 고객을 잡기위한 가전
 
 ### 8-4. 고객 페이지
 ![DashBoard-Customer](../assets/img/team_project/LG_LifeStation-Customer.png)
-- 
+- 해당 매장을 방문한 고객 리스트와 성별/연령별 방문 고객 차트를 보여주고 성별/연령별 선호 밀키트 리스트를 대시보드 형태로 보여준다.
 
 ### 8-5. 가전 페이지
 ![DashBoard-HomeAppliance](../assets/img/team_project/LG_LifeStation-Appliance.png)
-- 
+- 해당 매장에서 관리하고 있는 가전 리스트와 고장난 가전 리스트를 보여준다.
 
 ### 8-6. 재고 페이지
 ![DashBoard-Count](../assets/img/team_project/LG_LifeStation-Count.png)
-- 
+- 재고가 20개 미만인 밀키트와 세탁용품을 보여주고 부족한 재고를 주문하는 기능을 한다.
 
 </div>
 </details>
@@ -211,23 +211,23 @@ description: (부트캠프 DX 프로젝트) 잠재 고객을 잡기위한 가전
 
 ### 9-1. 이용권 페이지
 ![Kiosk-Ticket](../assets/img/team_project/LG_LifeStation-Ticket.png)
-- 
+- 빨래를 위한 세탁/건조/스타일러/슈케어와 식사를 위한 주방 이용권을 구매하는 페이지이다.
 
 ### 9-2 상품 페이지
 ![Kiosk-Product](../assets/img/team_project/LG_LifeStation-Product.png)
-- 
+- 상품을 주문할 수 있는 페이지이며 밀키트는 한식/중식/양식 카테고리로 나누어져있다.
 
 ### 9-2 담기 페이지
 ![Kiosk-ProductCount](../assets/img/team_project/LG_LifeStation-ProductCount.png)
-- 
+- 구매할 상품의 개수를 설정하고 장바구니에 담는 페이지이다.
 
 ### 9-3. 장바구니 페이지
 ![Kiosk-ShopCart](../assets/img/team_project/LG_LifeStation-ShopCart.png)
-- 
+- 담기 페이지를 통해 담은 상품들을 보여주는 페이지이다. 이용권을 구매한 고객은 10%의 할인율을 받는다.
 
 ### 9-4. 결제완료 페이지
 ![Kiosk-Complete](../assets/img/team_project/LG_LifeStation-Complete.png)
-- 
+- 결제를 완료하면 카카오톡으로 QR코드를 보내주며 QR코드를 통해 상품을 수령할 수 있다.
 
 </div>
 </details>
@@ -242,27 +242,27 @@ description: (부트캠프 DX 프로젝트) 잠재 고객을 잡기위한 가전
 
 ### 10-1. 로그인 화면
 ![App-Login](../assets/img/team_project/LG_LifeStation-Login.png)
-- 
+- 카카오톡 로그인을 시작하는 페이지이다.
 
 ### 10-2. 카카오톡 로그인 화면
 ![App-KakaoLogin](../assets/img/team_project/LG_LifeStation-KakaoLogin.png)
-- 
+- 카카오톡 아이디와 비밀번호를 통해 로그인한다.
 
 ### 10-3. 메인 화면
 ![App-Main](../assets/img/team_project/LG_LifeStation-AppMain.png)
-- 
+- 모든 매장을 리스트 뷰 형태로 보여주며 터치를 통해 해당 매장의 웹 결제 시스템으로 이동할 수 있다.
 
 ### 10-4. 지도 화면
 ![App-Map](../assets/img/team_project/LG_LifeStation-Map.png)
-- 
+- 매장의 위치를 마커로 지도에 표시해주며 마커를 터치하여 해당 매장의 웹 결제 시스템으로 이동할 수 있다.
 
 ### 10-5. 안내 화면
 ![App-Info](../assets/img/team_project/LG_LifeStation-Info.png)
-- 
+- 해당 매장의 이용법들을 안내해주는 페이지이다.
 
 ### 10-6. 내 정보 화면
 ![App-MyInfo](../assets/img/team_project/LG_LifeStation-MyInfo.png)
-- 
+- 정기권과 내가 구매한 내역들을 보여주는 페이지이다.
 
 </div>
 </details>
