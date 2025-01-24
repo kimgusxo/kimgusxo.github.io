@@ -184,7 +184,7 @@ description: (부트캠프 DX 프로젝트) 잠재 고객을 잡기위한 가전
 
 ### 8-3. 세탁용품 페이지
 ![DashBoard-Laundry](../assets/img/team_project/LG_LifeStation-Laundry.png)
-- 
+- 매장의 세탁용품 리스트와 연도별 판매량 순위, 세탁용품 별 판매량 차트, 월 별 세탁용품 판매량 순위를 대시보드 형태로 보여준다.
 
 ### 8-4. 고객 페이지
 ![DashBoard-Customer](../assets/img/team_project/LG_LifeStation-Customer.png)
