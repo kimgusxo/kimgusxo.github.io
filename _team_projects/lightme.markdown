@@ -100,7 +100,7 @@ description: (부트캠프 CX 프로젝트) K-POP 팬들을 위한 덕질 어플
 <div markdown="1">
 
 ![FirstActionClustering](../assets/img/team_project/LightMe-ActorClustering1.png)
-- 
+- 2만개의 데이터 중 광고성 글과 의미없는 글, 짧은 글 등을 필터링하여 13,000개의 데이터로 정리하였고 클러스터링을 진행
 
 </div>
 
@@ -116,7 +116,7 @@ description: (부트캠프 CX 프로젝트) K-POP 팬들을 위한 덕질 어플
 <div markdown="1">
 
 ![FirstActionTopicAnalysis](../assets/img/team_project/LightMe-ActorTopic1.png)
-- 
+- 클러스터링된 액터들을 LDA 토픽 분석을 통해 액션을 도출하고 기회영역분석을 진행하여 중요도/만족도 영역에 Actor0이 대부분 분포하고 있는 것을 확인
 
 </div>
 </details>
@@ -131,7 +131,7 @@ description: (부트캠프 CX 프로젝트) K-POP 팬들을 위한 덕질 어플
 <div markdown="1">
 
 ![SecondActionClustering](../assets/img/team_project/LightMe-ActorClustering2.png)
-- 
+- Actor0의 행동을 더 깊이 이해하기 위해 2차 클러스터링을 진행
 
 </div>
 </details>
@@ -146,7 +146,9 @@ description: (부트캠프 CX 프로젝트) K-POP 팬들을 위한 덕질 어플
 <div markdown="1">
 
 ![SecondActionTopicAnalysis](../assets/img/team_project/LightMe-ActorTopic2.png)
-- 
+- 각 액터별로 17개의 액션을 도출함
+![SecondActionOpportunity](../assets/img/team_project/LightMe-SecondActionOpportunity.png)
+- 액션 중 기회영역에 포착된 액션 3개를 타겟팅
 
 </div>
 </details>
@@ -161,7 +163,7 @@ description: (부트캠프 CX 프로젝트) K-POP 팬들을 위한 덕질 어플
 <div markdown="1">
 
 ![Persona](../assets/img/team_project/LightMe-Persona.png)
-- 
+- 타겟 액션을 분석하여 페르소나를 도출함
 
 </div>
 </details>
