@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: post
 title:  "NoticeBoard"
 permalink: /noticeboard/
@@ -69,4 +69,4 @@ description: (반응형 프로그래밍 공부용) 게시판 사이트
 
 - 원인분석: 
 
-- 해결방안:
+- 해결방안: -->
